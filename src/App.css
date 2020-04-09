@@ -28,3 +28,18 @@ body {
   font-family: "Abril Fatface", serif;
   line-height: 1.5;
 }
+:root {
+  --brand: #7d4cdb;
+  --status-ok: #00c781;
+}
+@keyframes brand-to-ok {
+  0% {
+    color: var(--brand);
+  }
+  50% {
+    color: var(--status-ok);
+  }
+  100% {
+    color: var(--brand);
+  }
+}

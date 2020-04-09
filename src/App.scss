@@ -29,3 +29,9 @@ body {
   --brand: #7D4CDB;
   --status-ok: #00C781;
 }
+
+@keyframes brand-to-ok {
+  0%   {color: var(--brand)};
+  50%  {color: var(--status-ok)};
+  100% {color: var(--brand)};
+}

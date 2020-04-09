@@ -9,7 +9,7 @@ function HomeComponent({ history }) {
   };
 
   return (
-    <Box height="90vh" overflow="hidden">
+    <Box height="80vh" overflow="hidden">
       <Main
         direction="column"
         width="100vw"
