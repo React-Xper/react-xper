@@ -4,34 +4,32 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Navbar } from './components/Navbar';
 import { NotFound } from './components/NotFound';
 import { Home } from './components/Home';
-import { ThemeProvider } from 'styled-components';
-import { lightTheme, darkTheme } from './components/style/Theme';
+import { Grommet } from 'grommet';
 import { useSelector } from 'react-redux'
-import { Global } from './components/style/Global';
 import { Lab } from './components/Lab';
+import { theme } from './assets/theme/theme';
 
 export function App() {
-  const theme = useSelector(state => state.theme);
+  const mode = useSelector(state => state.theme);
 
   return (
-    <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
-        <Global />
-          <Router>
-            <Navbar />
-            <Switch>
-              <Route exact path="/">
-                <Home />
-              </Route>
-              <Route exact path="/about">
-              </Route>
-              <Route exact path="/lab">
-                <Lab />
-              </Route>
-              <Route path="**">
-                <NotFound />
-              </Route>
-            </Switch>
-          </Router>
-    </ThemeProvider>
+    <Grommet theme={theme} themeMode={mode}>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/about">
+          </Route>
+          <Route exact path="/lab">
+            <Lab />
+          </Route>
+          <Route path="**">
+            <NotFound />
+          </Route>
+        </Switch>
+      </Router>
+    </Grommet>
   )
 }

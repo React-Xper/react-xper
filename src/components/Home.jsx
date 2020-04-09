@@ -1,31 +1,29 @@
 import React from 'react';
-import { Page } from './style/Page';
-import { Banner } from './style/Banner';
-import { H1 } from './style/H1';
-import { H2 } from './style/H2';
-import { Button } from './style/Button';
-import { Footer } from './style/Footer';
-import { Link } from 'react-router-dom/cjs/react-router-dom.min';
-import useBreakpoint from './hooks/useBreakpoint';
+import { Footer, Button, Box, Main, Heading, Text } from 'grommet';
+import { Link, withRouter } from 'react-router-dom';
 
-export function Home() {
-  const size = useBreakpoint();
+function HomeComponent({ history }) {
+  const handleButtonClick = () => {
+    history.push('/lab');
+  };
 
   return (
-    <Page>
-      <Banner>
-        <div>
-          <H1 size={size}><span>Reac<b>t</b></span>hesiS <span role="img" aria-labelledby="science">👨‍🔬</span></H1>
-          <H2 size={size}>A developer's guide to experiment React</H2>
-          <p>Made with <span role="img" aria-labelledby="heart">❤️</span> by
-          <a href="https://github.com/m3yevn" target="_blank" rel="noopener noreferrer">m3yevn</a></p>
-        </div>
-      </Banner>
-      <Footer>
-        <>
-          <Button><Link to="/lab">Get Started</Link></Button>
-        </>
+    <Box height="80vh">
+      <Main
+        direction="column"
+        justify="center"
+        pad="medium"
+        alignSelf="center">
+        <Heading textAlign="center" responsive={true} level="1"><span>Reac<b>t</b></span>hesiS <span role="img" aria-labelledby="science">👨‍🔬</span></Heading>
+        <Heading textAlign="center" responsive={true} level="4">A developer's guide to experiment React</Heading>
+        <Text color="gray" textAlign="center" size="small">Made with <span role="img" aria-labelledby="heart">❤️</span> by
+          <a href="https://github.com/m3yevn" target="_blank" rel="noopener noreferrer">m3yevn</a></Text>
+      </Main>
+      <Footer alignSelf="center" pad="medium">
+        <Button label="Get Started" onClick={handleButtonClick} />
       </Footer>
-    </Page>
+    </Box>
   )
 }
+
+export const Home = withRouter(HomeComponent);
