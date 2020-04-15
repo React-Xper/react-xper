@@ -35,3 +35,7 @@ body {
   50%  {color: var(--status-ok)};
   100% {color: var(--brand)};
 }
+
+code {
+  background-color: lightgrey;
+}
