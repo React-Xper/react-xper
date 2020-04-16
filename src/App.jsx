@@ -8,8 +8,9 @@ import { Grommet } from 'grommet';
 import { useSelector } from 'react-redux'
 import { Lab } from './components/Lab';
 import { theme } from './assets/theme/theme';
-import { UseEffect } from './components/labs/useEffect';
-import { UseMemo } from './components/labs/useMemo';
+import { Effects } from './components/labs/Effects';
+import { Memoization } from './components/labs/Memoization';
+import { About } from './components/About';
 
 export function App() {
   const mode = useSelector(state => state.theme);
@@ -23,17 +24,18 @@ export function App() {
             <Home />
           </Route>
           <Route exact path="/about">
+            <About />
           </Route>
           <Route exact path="/lab">
             <Lab />
           </Route>
-          <Route exact path="/lab/useEffect">
-            <UseEffect />
+          <Route exact path="/lab/effects">
+            <Effects />
           </Route>
-          <Route exact path="/lab/useMemo">
-            <UseMemo />
+          <Route exact path="/lab/memoization">
+            <Memoization />
           </Route>
-          <Route path="**">
+          <Route exact path="**">
             <NotFound />
           </Route>
         </Switch>
