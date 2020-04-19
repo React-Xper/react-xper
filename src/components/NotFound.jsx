@@ -3,7 +3,7 @@ import { Main, Box, Heading, Text } from 'grommet';
 
 export function NotFound() {
   return (
-    <Box height="80vh">
+    <Box height="100vh">
       <Main
         justify="center"
         align="center">

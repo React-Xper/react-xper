@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useMemo } from 'react';
-import { Main, TextInput, Box, Heading, Paragraph, Button } from 'grommet';
+import React, { useState, useMemo } from 'react';
+import { Main, TextInput, Box, Heading, Paragraph, Text } from 'grommet';
 
 export function Memoization() {
   const [length, setLength] = useState(3);
@@ -23,6 +23,9 @@ export function Memoization() {
       <br />
       <NameDisplay name={name}></NameDisplay>
       <FibDisplay length={length}></FibDisplay>
+      <br/>
+      <br/>
+      <Text>View code at <a href="https://github.com/m3yevn/reacthesis/blob/master/src/components/labs/Memoization.jsx">Github</a></Text>
     </Main>
   )
 }

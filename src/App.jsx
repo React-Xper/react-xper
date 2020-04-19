@@ -11,6 +11,7 @@ import { theme } from './assets/theme/theme';
 import { Effects } from './components/labs/Effects';
 import { Memoization } from './components/labs/Memoization';
 import { About } from './components/About';
+import { Localization } from './components/labs/Localization';
 
 export function App() {
   const mode = useSelector(state => state.theme);
@@ -34,6 +35,9 @@ export function App() {
           </Route>
           <Route exact path="/lab/memoization">
             <Memoization />
+          </Route>
+          <Route exact path="/lab/localization">
+            <Localization />
           </Route>
           <Route exact path="**">
             <NotFound />

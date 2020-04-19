@@ -11,6 +11,10 @@ const articles = [
   {
     title: 'Memoization',
     link: '/memoization'
+  },
+  {
+    title: 'Localization',
+    link: '/localization'
   }
 ];
 
