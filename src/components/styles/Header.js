@@ -6,12 +6,13 @@ a {
   text-decoration: none;
   font-size: 30px;
   color: var(--brand);
+  padding-right: 20px;
   font-weight: normal;
   &:hover {
     text-decoration: none;
   }
   &.selected{
-    color: var(--status-ok);
+    text-decoration: underline;
   }
 }
 `;
