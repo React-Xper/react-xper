@@ -12,13 +12,6 @@ function NavbarComponent({ location }) {
 
   const size = useContext(ResponsiveContext);
 
-  const handleMenuClick = () => {
-    setOpenDialog(true);
-  }
-  const handleCloseClick = () => {
-    setOpenDialog(false);
-  }
-
   useEffect(() => {
     setOpenDialog(false);
   }, [location])
