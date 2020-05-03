@@ -1,5 +1,6 @@
 export const global = {
   colors: {
+    brand: '#61dafb',
     background: {
       dark: 'black',
       light: 'white'
@@ -7,6 +8,6 @@ export const global = {
     text: {
       dark: 'white',
       light: 'black'
-    }
+    },
   }
 }

@@ -26,16 +26,31 @@ body {
 }
 
 :root {
-  --brand: #7D4CDB;
-  --status-ok: #00C781;
+  --brand: #1fcee6;
+  --brand-darker: #449eb8;
+}
+
+@mixin brand-text {
+  color: var(--brand); 
 }
 
 @keyframes brand-to-ok {
   0%   {color: var(--brand)};
-  50%  {color: var(--status-ok)};
+  50%  {color: var(--brand-darker)};
   100% {color: var(--brand)};
 }
 
 code {
   background-color: lightgrey;
 }
+
+.react-logo {
+  width: 150px;
+  height: auto;
+}
+
+a {
+  @include brand-text;
+  text-decoration: none;
+}
+
