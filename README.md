@@ -19,6 +19,7 @@ To learn more about the react framework, please visit [official ReactJS website]
 - Grommet v2 UI library
 - Styled Components
 - React router
+- Redux
 
 ### 🏃‍♂️ Run this code with
 
