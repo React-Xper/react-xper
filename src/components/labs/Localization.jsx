@@ -40,7 +40,7 @@ export function Localization() {
       <Box>
         <Heading level="2">Localizaton using react-intl</Heading>
         <Paragraph>
-          <label>Enter locale code</label>
+          <label>Select Language</label>
           <Select
             options={["English", "Chinese", "Russian"]}
             value={language}
