@@ -1,38 +1,43 @@
-import React from 'react';
-import { withRouter } from 'react-router-dom';
-import { NavLink } from 'react-router-dom';
-import { Box } from 'grommet';
+import React from "react";
+import { withRouter } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import { Box } from "grommet";
 
 const articles = [
   {
-    title: 'Effects',
-    link: '/effects'
+    title: "Effects",
+    link: "/effects",
   },
   {
-    title: 'Memoization',
-    link: '/memoization'
+    title: "Memoization",
+    link: "/memoization",
   },
   {
-    title: 'Localization',
-    link: '/localization'
-  }
+    title: "Localization",
+    link: "/localization",
+  },
+  {
+    title: "Refs",
+    link: "/refs",
+  },
 ];
 
 function LabComponent() {
-
-  return (<Box height="100vh">
-    <ul>
-      {
-        articles.map((value, index) => {
+  return (
+    <Box height="100vh">
+      <ul>
+        {articles.map((value, index) => {
           return (
             <li key={index}>
-              <NavLink to={`/lab${value.link}`}><h1>{value.title}</h1></NavLink>
+              <NavLink to={`/lab${value.link}`}>
+                <h1>{value.title}</h1>
+              </NavLink>
             </li>
-          )
-        })
-      }
-    </ul>
-  </Box>)
+          );
+        })}
+      </ul>
+    </Box>
+  );
 }
 
 export const Lab = withRouter(LabComponent);

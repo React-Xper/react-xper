@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import styled from 'styled-components';
-import { toggleTheme } from '../utils/actions/actionToggleTheme';
-import { store } from '../utils/store';
-import { useSelector } from 'react-redux';
+import React, { useState, useEffect } from "react";
+import styled from "styled-components";
+import { toggleTheme } from "../utils/actions/actionToggleTheme";
+import { store } from "../utils/store";
+import { useSelector } from "react-redux";
 
 const Label = styled.label`
   position: relative;
@@ -17,7 +17,7 @@ const Label = styled.label`
     height: 0;
 
     &:checked + span {
-      background-color: indigo;
+      background-color: var(--brand);
 
       &:before {
         -webkit-transform: translateX(26px);
@@ -27,7 +27,7 @@ const Label = styled.label`
       }
     }
   }
-  span {  
+  span {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -35,21 +35,17 @@ const Label = styled.label`
     right: 0;
     bottom: 0;
     background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
     border-radius: 34px;
 
-    &::before{
+    &::before {
       position: absolute;
       content: "🌞";
-      text-align:center;
+      text-align: center;
       height: 26px;
       width: 26px;
       left: 4px;
       bottom: 4px;
       background-color: white;
-      -webkit-transition: .4s;
-      transition: .4s;
       border-radius: 50%;
     }
   }
@@ -57,23 +53,24 @@ const Label = styled.label`
 
 export function Switch() {
   const [toggle, setToggle] = useState(false);
-  const theme = useSelector(state => state.theme);
+  const theme = useSelector((state) => state.theme);
 
   useEffect(() => {
-    if (theme === 'light') {
+    if (theme === "light") {
       setToggle(false);
     } else {
       setToggle(true);
     }
-  }, [theme])
+  }, [theme]);
 
   const handleToggleSwitch = (e) => {
     store.dispatch(toggleTheme());
-  }
+  };
 
   return (
     <Label>
       <input type="checkbox" checked={toggle} onChange={handleToggleSwitch} />
       <span></span>
-    </Label>)
+    </Label>
+  );
 }

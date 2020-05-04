@@ -54,3 +54,17 @@ a {
   text-decoration: none;
 }
 
+table {
+  tr {
+    padding:10px;
+    :nth-child(1) {
+      width: 10%;
+    }
+    :nth-child(2) {
+      width: 80%;
+    }
+    :nth-child(3) {
+      width: 10%;
+    }
+  }
+}

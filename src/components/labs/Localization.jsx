@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Box,
-  Main,
-  Heading,
-  Paragraph,
-  TextInput,
-  Select,
-  Text,
-} from "grommet";
+import { Box, Main, Heading, Paragraph, Select, Text } from "grommet";
 import { IntlProvider, FormattedMessage } from "react-intl";
 import en from "../../assets/localization/en.json";
 import zh_cn from "../../assets/localization/zh-cn.json";
@@ -62,8 +54,8 @@ export function Localization() {
             </IntlProvider>
           </section>
         </Paragraph>
-        <br />
-        <br />
+      </Box>
+      <Box style={{ marginTop: 30 }}>
         <Text>
           View code at{" "}
           <a
