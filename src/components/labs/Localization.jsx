@@ -1,5 +1,13 @@
 import React from "react";
-import { Box, Main, Heading, Paragraph, TextInput, Select } from "grommet";
+import {
+  Box,
+  Main,
+  Heading,
+  Paragraph,
+  TextInput,
+  Select,
+  Text,
+} from "grommet";
 import { IntlProvider, FormattedMessage } from "react-intl";
 import en from "../../assets/localization/en.json";
 import zh_cn from "../../assets/localization/zh-cn.json";
@@ -58,7 +66,10 @@ export function Localization() {
         <br />
         <Text>
           View code at{" "}
-          <a href="https://github.com/m3yevn/reacthesis/blob/master/src/components/labs/Localization.jsx" alt="github">
+          <a
+            href="https://github.com/m3yevn/reacthesis/blob/master/src/components/labs/Localization.jsx"
+            alt="github"
+          >
             Github
           </a>
         </Text>
