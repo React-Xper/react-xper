@@ -54,10 +54,15 @@ export function Localization() {
             </IntlProvider>
           </section>
         </Paragraph>
+        <br />
+        <br />
+        <Text>
+          View code at{" "}
+          <a href="https://github.com/m3yevn/reacthesis/blob/master/src/components/labs/Localization.jsx" alt="github">
+            Github
+          </a>
+        </Text>
       </Box>
-      <br/>
-      <br/>
-      <Text>View code at <a href="https://github.com/m3yevn/reacthesis/blob/master/src/components/labs/Localization.jsx">Github</a></Text>
     </Main>
   );
 }
