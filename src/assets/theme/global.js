@@ -1,13 +1,13 @@
 export const global = {
   colors: {
-    brand: '#61dafb',
+    brand: "#61dafb",
     background: {
-      dark: 'black',
-      light: 'white'
+      dark: "black",
+      light: "white",
     },
     text: {
-      dark: 'white',
-      light: 'black'
+      dark: "white",
+      light: "black",
     },
-  }
-}
+  },
+};

@@ -63,7 +63,7 @@ export function Switch() {
     }
   }, [theme]);
 
-  const handleToggleSwitch = (e) => {
+  const handleToggleSwitch = () => {
     store.dispatch(toggleTheme());
   };
 

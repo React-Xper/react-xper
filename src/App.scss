@@ -44,11 +44,6 @@ code {
   background-color: lightgrey;
 }
 
-.react-logo {
-  width: 150px;
-  height: auto;
-}
-
 a {
   @include brand-text;
   text-decoration: none;
@@ -66,5 +61,25 @@ table {
     :nth-child(3) {
       width: 10%;
     }
+  }
+}
+
+//**Class Names**//
+.reacthesis-logo {
+  width: 150px;
+  height: auto;
+}
+
+.reacthesis-img {
+  width: 300px;
+}
+
+.reacthesis-banner {
+  background-color: black;
+  color: white;
+  padding: 5px;
+
+  * {
+    text-align: center;
   }
 }

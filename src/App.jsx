@@ -1,53 +1,34 @@
-import React from 'react';
-import './App.scss';
+import React, { Suspense } from "react";
+import "./App.scss";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navbar } from './components/Navbar';
-import { NotFound } from './components/NotFound';
-import { Home } from './components/Home';
-import { Grommet } from 'grommet';
-import { useSelector } from 'react-redux'
-import { Lab } from './components/Lab';
-import { theme } from './assets/theme/theme';
-import { Effects } from './components/labs/Effects';
-import { Memoization } from './components/labs/Memoization';
-import { About } from './components/About';
-import { Localization } from './components/labs/Localization';
-import { Refs } from './components/labs/Refs';
+import { theme } from "./assets/theme/theme";
+import { Navbar } from "./components/Navbar";
+import { Grommet } from "grommet";
+import { useSelector } from "react-redux";
+import { Banner } from "./components/Banner";
+
+const Home = React.lazy(() => import("./components/Home"));
+const About = React.lazy(() => import("./components/About"));
+const Concepts = React.lazy(() => import("./components/Concepts"));
+const NotFound = React.lazy(() => import("./components/NotFound"));
 
 export function App() {
-  const mode = useSelector(state => state.theme);
+  const mode = useSelector((state) => state.theme);
 
   return (
     <Grommet theme={theme} themeMode={mode}>
       <Router>
+        <Banner />
         <Navbar />
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route exact path="/about">
-            <About />
-          </Route>
-          <Route exact path="/lab">
-            <Lab />
-          </Route>
-          <Route exact path="/lab/effects">
-            <Effects />
-          </Route>
-          <Route exact path="/lab/memoization">
-            <Memoization />
-          </Route>
-          <Route exact path="/lab/localization">
-            <Localization />
-          </Route>
-          <Route exact path="/lab/refs">
-            <Refs />
-          </Route>
-          <Route exact path="**">
-            <NotFound />
-          </Route>
-        </Switch>
+        <Suspense fallback={<div>...loading</div>}>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/concepts-lab" component={Concepts} />
+            <Route exact path="/**" component={NotFound} />
+          </Switch>
+        </Suspense>
       </Router>
     </Grommet>
-  )
+  );
 }

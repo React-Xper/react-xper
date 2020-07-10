@@ -1,9 +1,9 @@
 import React from "react";
 import { Box, Main, Heading, Paragraph, Select, Text } from "grommet";
 import { IntlProvider, FormattedMessage } from "react-intl";
-import en from "../../assets/localization/en.json";
-import zh_cn from "../../assets/localization/zh-cn.json";
-import ru from "../../assets/localization/ru.json";
+import en from "../../../assets/localization/en.json";
+import zh_cn from "../../../assets/localization/zh-cn.json";
+import ru from "../../../assets/localization/ru.json";
 import { useState } from "react";
 
 const messages = {
