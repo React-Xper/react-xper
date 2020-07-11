@@ -3,7 +3,7 @@ import { Main, Box, Text, Image } from "grommet";
 
 function NotFoundComponent() {
   return (
-    <Box height="70vh">
+    <Box height="100vh">
       <Main justify="center" align="center">
         <Image
           src={require("../../assets/img/404.svg")}
