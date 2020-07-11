@@ -1,5 +1,5 @@
 import React from "react";
-import { Main, Box, Heading, Text, Image } from "grommet";
+import { Main, Box, Text, Image } from "grommet";
 
 function NotFoundComponent() {
   return (
