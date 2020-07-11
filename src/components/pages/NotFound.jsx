@@ -4,7 +4,7 @@ import { Main, Box, Text, Image } from "grommet";
 function NotFoundComponent() {
   return (
     <Box height="100vh">
-      <Main justify="center" align="start" pad="medium">
+      <Main justify="start" align="center" pad="medium">
         <Image
           src={require("../../assets/img/404.svg")}
           className="reacthesis-img"
