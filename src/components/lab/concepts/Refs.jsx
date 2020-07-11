@@ -14,7 +14,7 @@ const styles = {
   },
   row: {
     flexDirection: "row",
-    display: "flex"
+    display: "flex",
   },
 };
 
@@ -27,7 +27,7 @@ async function getCountries() {
   return countries;
 }
 
-export function Refs() {
+export default function Refs() {
   const listRef = useRef(null);
   const [countries, setCountries] = useState([]);
 

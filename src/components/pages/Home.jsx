@@ -9,14 +9,14 @@ import {
   ResponsiveContext,
 } from "grommet";
 import { useHistory } from "react-router-dom";
-import { Heading } from "./styles/Heading";
+import { Heading } from "../styles/Heading";
 
-function HomeComponent() {
+export default function HomeComponent() {
   const size = React.useContext(ResponsiveContext);
   const history = useHistory();
 
   const handleButtonClick = () => {
-    history.push("/concetps-lab");
+    history.push("/concepts-lab");
   };
 
   return (
@@ -30,19 +30,28 @@ function HomeComponent() {
         alignSelf="center"
         overflow="hidden"
       >
-        <Heading textAlign="center" responsive={true} level="1">
-          <span>
-            <img
-              src={require("../assets/img/React.webp")}
-              alt="reacthesis-logo"
-              className="reacthesis-logo"
-            />
-            {size === "small" && <br />}
+        <Heading
+          textAlign="center"
+          responsive={true}
+          level="1"
+          className={size !== "small" ? "reacthesis-logo-wrapper" : null}
+        >
+          <div
+            className={`reacthesis-logo reacthesis-logo__home ${
+              size === "small" ? "reacthesis-logo__home--small" : ""
+            }`}
+          ></div>
+          {size === "small" && <br />}
+          <div style={{ marginTop: size !== "small" ? 50 : 0 }}>
             Reac<b>t</b>
-          </span>
-          hesiS
+            hesiS
+          </div>
           {size !== "small" && (
-            <span role="img" aria-labelledby="science">
+            <span
+              style={{ marginTop: size !== "small" ? 50 : 0 }}
+              role="img"
+              aria-labelledby="science"
+            >
               👨‍🔬
             </span>
           )}
@@ -77,5 +86,3 @@ function HomeComponent() {
     </Box>
   );
 }
-
-export default HomeComponent;

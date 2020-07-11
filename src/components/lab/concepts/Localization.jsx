@@ -12,7 +12,7 @@ const messages = {
   Russian: ru,
 };
 
-export function Localization() {
+export default function Localization() {
   const [language, setLanguage] = useState("English");
 
   return (

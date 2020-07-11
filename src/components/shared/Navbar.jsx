@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react";
 import { NavLink, withRouter } from "react-router-dom";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { Anchor, ResponsiveContext, Layer, Button } from "grommet";
-import { Header } from "./styles/Header";
+import { Header } from "../styles/Header";
 import { Switch } from "./Switch";
 import { useContext } from "react";
-import { Menu } from "./styles/Menu";
+import { Menu } from "../styles/Menu";
 
 function NavbarComponent({ location }) {
   const [openDialog, setOpenDialog] = useState(false);

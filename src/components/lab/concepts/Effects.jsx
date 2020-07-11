@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Main, TextInput, Box, Heading, Paragraph, Text } from "grommet";
 
-export function Effects() {
+export default function Effects() {
   const [c, setC] = useState(0);
   const [a, setA] = useState(0);
   const [b, setB] = useState(0);
