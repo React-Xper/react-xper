@@ -10,4 +10,9 @@ export const global = {
       light: "black",
     },
   },
+  breakpoints: {
+    small: { value: 425 },
+    medium: { value: 768 },
+    large: { value: 1440 },
+  },
 };

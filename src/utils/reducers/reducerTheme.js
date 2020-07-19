@@ -1,4 +1,4 @@
-import { THEME } from "../actions/types";
+import { THEME } from "utils/actions/types";
 
 const initialState = localStorage.getItem('theme') || 'light';
 

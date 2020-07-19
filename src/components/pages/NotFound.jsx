@@ -6,7 +6,7 @@ function NotFoundComponent() {
     <Box height="100vh">
       <Main justify="start" align="center" pad="medium">
         <Image
-          src={require("../../assets/img/404.svg")}
+          src={require("assets/img/404.svg")}
           className="reacthesis-img"
         />
         <Text>Page Not Found</Text>

@@ -9,7 +9,7 @@ import {
   ResponsiveContext,
 } from "grommet";
 import { useHistory } from "react-router-dom";
-import { Heading } from "../styles/Heading";
+import { Heading } from "components/styles/Heading";
 
 export default function HomeComponent() {
   const size = React.useContext(ResponsiveContext);
@@ -20,7 +20,7 @@ export default function HomeComponent() {
   };
 
   return (
-    <Box height="100vh" overflow="hidden">
+    <Box height="100%">
       <Main
         direction="column"
         width="100vw"
@@ -28,7 +28,7 @@ export default function HomeComponent() {
         align="center"
         pad="medium"
         alignSelf="center"
-        overflow="hidden"
+        height="100%"
       >
         <Heading
           textAlign="center"
@@ -37,6 +37,7 @@ export default function HomeComponent() {
           className={size !== "small" ? "reacthesis-logo-wrapper" : null}
         >
           <div
+            style={{ marginTop: size === "small" ? -40 : 0 }}
             className={`reacthesis-logo reacthesis-logo__home ${
               size === "small" ? "reacthesis-logo__home--small" : ""
             }`}
@@ -75,7 +76,7 @@ export default function HomeComponent() {
             m3yevn
           </Anchor>
         </Text>
-        <Footer justify="center" pad="xlarge">
+        <Footer justify="center" pad="small">
           <Button
             color="brand"
             label="Get Started"

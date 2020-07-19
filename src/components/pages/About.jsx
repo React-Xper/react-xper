@@ -9,7 +9,7 @@ function AboutComponent() {
       </Heading>
       <Main alignSelf="center" pad="medium">
         <Image
-          src={require("../../assets/img/alien_science.svg")}
+          src={require("assets/img/alien_science.svg")}
           className="reacthesis-img"
         />
         <Paragraph responsive={true}>

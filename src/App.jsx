@@ -11,6 +11,7 @@ import { Loading } from "./components/shared/Loading";
 const Home = React.lazy(() => import("./components/pages/Home"));
 const About = React.lazy(() => import("./components/pages/About"));
 const Concepts = React.lazy(() => import("./components/pages/Concepts"));
+const Components = React.lazy(() => import("./components/pages/Components"));
 const NotFound = React.lazy(() => import("./components/pages/NotFound"));
 
 function Main() {
@@ -34,6 +35,13 @@ function Main() {
           render={({ match }) => (
             <Suspense fallback={<Loading />}>
               <Concepts match={match} />
+            </Suspense>
+          )}
+        />
+        <Route
+          render={({ match }) => (
+            <Suspense fallback={<Loading />}>
+              <Components match={match} />
             </Suspense>
           )}
         />

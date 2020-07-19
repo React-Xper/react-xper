@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
-import { toggleTheme } from "../../utils/actions/actionToggleTheme";
-import { store } from "../../utils/store";
+import { toggleTheme } from "utils/actions/actionToggleTheme";
+import { store } from "utils/store";
 import { useSelector } from "react-redux";
 
 const Label = styled.label`

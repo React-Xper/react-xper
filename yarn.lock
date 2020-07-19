@@ -1118,6 +1118,13 @@
     prop-types "^15.5.10"
     recompose "0.27.1 - 0.30.0"
 
+"@bit/m3yevn.reacthesis-ui.card@^1.0.0":
+  version "1.0.0"
+  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.card/-/m3yevn.reacthesis-ui.card-1.0.0.tgz#b3103037001e2e3da86582b5269a0ac0a015d6ab"
+  integrity sha1-sxAwNwAeLj2oZYK1JpoKwKAV1qs=
+  dependencies:
+    react "^16.13.1"
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"
