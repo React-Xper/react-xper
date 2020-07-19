@@ -10,7 +10,7 @@ function ComponentsMainComponent() {
 
   return (
     <Box style={gridStyle(dark)}>
-      <ComponentWrapper name="Card">
+      <ComponentWrapper name="Card" link="/card">
         <Card />
       </ComponentWrapper>
     </Box>

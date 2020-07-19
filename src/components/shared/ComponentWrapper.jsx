@@ -4,12 +4,17 @@ import { useContext } from "react";
 import { ResponsiveContext, ThemeContext } from "grommet";
 import { useTheme } from "styled-components";
 
-export const ComponentWrapper = ({ children, name }) => {
+export const ComponentWrapper = ({ children, name, link }) => {
+  const baseUrl = "https://bit.dev/m3yevn/reacthesis-ui";
   const size = useContext(ResponsiveContext);
   const dark = useTheme(ThemeContext).dark;
 
+  const handleClick = () => {
+    window.open(baseUrl + link, "__blank");
+  };
+
   return (
-    <div style={{ ...columnStyle(size) }}>
+    <div onClick={handleClick} style={{ ...columnStyle(size) }}>
       <div
         style={{
           ...cardStyle(dark),

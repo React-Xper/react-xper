@@ -7,6 +7,7 @@ export const cardStyle = (dark) => {
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
+    cursor: "pointer",
   };
 };
 
