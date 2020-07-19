@@ -9,7 +9,7 @@ function ComponentsMainComponent() {
   const dark = useTheme(ThemeContext).dark;
 
   return (
-    <Box style={gridStyle(dark)}>
+    <Box style={{ ...gridStyle(dark), minHeight: "100vh" }}>
       <ComponentWrapper name="Card" link="/card">
         <Card />
       </ComponentWrapper>
