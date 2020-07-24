@@ -6,10 +6,12 @@
     "@bit/davidhu2000.react-spinners.ring-loader": "^0.5.1",
     "@bit/m3yevn.reacthesis-ui.card": "^1.0.0",
     "grommet": "^2.12.0",
+    "konva": "^7.0.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.9.0",
     "react-intl": "^4.4.0",
+    "react-konva": "^16.13.0-3",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.1.2",
     "redux": "^4.0.5",
@@ -24,7 +26,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set PORT=3333 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -15,4 +15,8 @@ export const concepts = [
     title: "Refs",
     link: "/refs",
   },
+  {
+    title: "Konva",
+    link: "/konva",
+  },
 ];
