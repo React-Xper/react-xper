@@ -59,7 +59,7 @@ export default function Reducer() {
       <Box style={{ marginTop: 30 }}>
         <Text>
           View code at{" "}
-          <a href="https://github.com/m3yevn/reacthesis/blob/master/src/components/labs/Reducer.jsx">
+          <a href="https://github.com/m3yevn/reacthesis/blob/master/src/components/lab/concepts/Reducer.jsx">
             Github
           </a>
         </Text>
