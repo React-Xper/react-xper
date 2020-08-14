@@ -16,6 +16,10 @@ export const concepts = [
     link: "/refs",
   },
   {
+    title: "Reducer",
+    link: "/reducer",
+  },
+  {
     title: "Konva",
     link: "/konva",
   },

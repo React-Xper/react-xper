@@ -15,6 +15,7 @@ const Effects = React.lazy(() => import("../lab/concepts/Effects"));
 const Memoization = React.lazy(() => import("../lab/concepts/Memoization"));
 const Localization = React.lazy(() => import("../lab/concepts/Localization"));
 const Refs = React.lazy(() => import("../lab/concepts/Refs"));
+const Reducer = React.lazy(() => import("../lab/concepts/Reducer"));
 const Konva = React.lazy(() => import("../lab/concepts/Konva"));
 
 function ConceptsMainComponent() {
@@ -54,6 +55,7 @@ function ConceptsComponent({ match: { url } }) {
       <Route exact path={`${url}/memoization`} component={Memoization} />
       <Route exact path={`${url}/localization`} component={Localization} />
       <Route exact path={`${url}/refs`} component={Refs} />
+      <Route exact path={`${url}/reducer`} component={Reducer} />
       <Route exact path={`${url}/konva`} component={Konva} />
       <Route exact path={`${url}`} component={ConceptsMainComponent} />
     </>

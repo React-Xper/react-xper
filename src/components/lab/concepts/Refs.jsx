@@ -95,7 +95,7 @@ export default function Refs() {
       <Box style={{ marginTop: 30 }}>
         <Text>
           View code at{" "}
-          <a href="https://github.com/m3yevn/reacthesis/blob/master/src/components/labs/Refs.jsx">
+          <a href="https://github.com/m3yevn/reacthesis/blob/master/src/components/lab/concepts/Refs.jsx">
             Github
           </a>
         </Text>

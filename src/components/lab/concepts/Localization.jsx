@@ -59,7 +59,7 @@ export default function Localization() {
         <Text>
           View code at{" "}
           <a
-            href="https://github.com/m3yevn/reacthesis/blob/master/src/components/labs/Localization.jsx"
+            href="https://github.com/m3yevn/reacthesis/blob/master/src/components/lab/concepts/Localization.jsx"
             alt="github"
           >
             Github
