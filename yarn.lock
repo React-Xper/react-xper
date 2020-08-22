@@ -1118,11 +1118,42 @@
     prop-types "^15.5.10"
     recompose "0.27.1 - 0.30.0"
 
+"@bit/m3yevn.reacthesis-ui._mixins@1.0.2":
+  version "1.0.2"
+  resolved "https://node.bit.dev/m3yevn.reacthesis-ui._mixins/-/m3yevn.reacthesis-ui._mixins-1.0.2.tgz#bfda68760d50fd486e923455326a9252affe9113"
+  integrity sha1-v9podg1Q/UhukjRVMmqSUq/+kRM=
+
+"@bit/m3yevn.reacthesis-ui._variables@1.0.2":
+  version "1.0.2"
+  resolved "https://node.bit.dev/m3yevn.reacthesis-ui._variables/-/m3yevn.reacthesis-ui._variables-1.0.2.tgz#22dd656461f1d834963bba0641e55c3b8ed4712f"
+  integrity sha1-It1lZGHx2DSWO7oGQeVcO47UcS8=
+
 "@bit/m3yevn.reacthesis-ui.card@^1.0.0":
   version "1.0.0"
   resolved "https://node.bit.dev/m3yevn.reacthesis-ui.card/-/m3yevn.reacthesis-ui.card-1.0.0.tgz#b3103037001e2e3da86582b5269a0ac0a015d6ab"
   integrity sha1-sxAwNwAeLj2oZYK1JpoKwKAV1qs=
   dependencies:
+    react "^16.13.1"
+
+"@bit/m3yevn.reacthesis-ui.key_codes@1.0.2":
+  version "1.0.2"
+  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.key_codes/-/m3yevn.reacthesis-ui.key_codes-1.0.2.tgz#48ee162eb9b42a8a8c1257c20316700eb515cf5c"
+  integrity sha1-SO4WLrm0KoqMElfCAxZwDrUVz1w=
+
+"@bit/m3yevn.reacthesis-ui.regex@1.0.2":
+  version "1.0.2"
+  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.regex/-/m3yevn.reacthesis-ui.regex-1.0.2.tgz#078e994015c0cb167e367c78aced608f14d42a4f"
+  integrity sha1-B46ZQBXAyxZ+Nnx4rO1gjxTUKk8=
+
+"@bit/m3yevn.reacthesis-ui.text-input@^1.0.2":
+  version "1.0.2"
+  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.text-input/-/m3yevn.reacthesis-ui.text-input-1.0.2.tgz#347a342435832462fde4ce561e08f6f7672e654c"
+  integrity sha1-NHo0JDWDJGL95M5WHgj292cuZUw=
+  dependencies:
+    "@bit/m3yevn.reacthesis-ui._mixins" "1.0.2"
+    "@bit/m3yevn.reacthesis-ui._variables" "1.0.2"
+    "@bit/m3yevn.reacthesis-ui.key_codes" "1.0.2"
+    "@bit/m3yevn.reacthesis-ui.regex" "1.0.2"
     react "^16.13.1"
 
 "@cnakazawa/watch@^1.0.3":

@@ -1,13 +1,15 @@
-import React from "react";
-import { Main, Box, Heading, Paragraph, Text } from "grommet";
+import React, { useReducer, useState, useEffect, useRef } from "react";
+import { Main, Box, Heading, Text } from "grommet";
 import { Stage, Layer, Circle, Arrow } from "react-konva";
-import { useReducer } from "react";
-import { useState } from "react";
-import { useEffect } from "react";
 
 const initialState = {
   a: { x: 100, y: 100 },
   b: { x: 500, y: 100 },
+  stageConfig: {
+    height: 0,
+    width: 0,
+    draggable: true,
+  },
 };
 
 const reducer = (state = initialState, action) => {
@@ -16,25 +18,64 @@ const reducer = (state = initialState, action) => {
       return { ...state, a: action.payload };
     case "b":
       return { ...state, b: action.payload };
+    case "stageConfig":
+      return {
+        ...state,
+        stageConfig: {
+          ...state.stageConfig,
+          ...action.payload,
+        },
+      };
     default:
       return state;
   }
 };
 
-export default function Konva() {
+export default function TwoCircle() {
   const [circle, dispatchCircle] = useReducer(reducer, initialState);
   const [points, setPoints] = useState([]);
+  const wrapperRef = useRef(null);
 
   useEffect(() => {
-    const pointA = Object.values({ ...circle.a, x: circle.a.x + 50 });
-    const pointB = Object.values({ ...circle.b, x: circle.b.x - 50 });
+    const pointforA = { x: 0, y: 0 };
+    const pointforB = { x: 0, y: 0 };
+
+    if (circle.a.x > circle.b.x) {
+      pointforA.x = circle.a.x - 50;
+      pointforB.x = circle.b.x + 50;
+    } else if (circle.a.x < circle.b.x) {
+      pointforA.x = circle.a.x + 50;
+      pointforB.x = circle.b.x - 50;
+    } else {
+      pointforA.x = circle.a.x;
+      pointforB.x = circle.b.x;
+    }
+    pointforA.y = circle.a.y;
+    pointforB.y = circle.b.y;
+
+    const pointA = Object.values({ ...circle.a, ...pointforA });
+    const pointB = Object.values({ ...circle.b, ...pointforB });
+
     setPoints([...pointA, ...pointB]);
   }, [circle.a, circle.b]);
 
-  const stageConfig = {
-    height: 1024,
-    width: 1024,
-  };
+  useEffect(() => {
+    const handleResizeCanvas = () => {
+      dispatchCircle({
+        type: "stageConfig",
+        payload: {
+          height: wrapperRef.current.clientHeight,
+          width: wrapperRef.current.clientWidth,
+        },
+      });
+    };
+    handleResizeCanvas();
+    window.addEventListener("resize", handleResizeCanvas);
+
+    return () => {
+      window.removeEventListener("resize", handleResizeCanvas);
+    };
+  }, []);
 
   const handleDrag = (e) => {
     dispatchCircle({
@@ -48,12 +89,12 @@ export default function Konva() {
 
   return (
     <Main pad="small">
-      <Box>
-        <Heading level="2">Konva Lab</Heading>
-        <Paragraph fill={true}></Paragraph>
-      </Box>
-      <Box style={{ border: "2px solid black" }}>
-        <Stage {...stageConfig}>
+      <Heading level="2">Two Circles Experiment</Heading>
+      <Box
+        style={{ border: "2px solid black", minHeight: "80vh" }}
+        ref={wrapperRef}
+      >
+        <Stage {...circle.stageConfig}>
           <Layer>
             <Circle
               x={circle.a.x}

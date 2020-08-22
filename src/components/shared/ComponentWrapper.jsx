@@ -14,7 +14,7 @@ export const ComponentWrapper = ({ children, name, link }) => {
   };
 
   return (
-    <div onClick={handleClick} style={{ ...columnStyle(size) }}>
+    <div style={{ ...columnStyle(size) }}>
       <div
         style={{
           ...cardStyle(dark),
@@ -26,8 +26,10 @@ export const ComponentWrapper = ({ children, name, link }) => {
         {children}
       </div>
       <div
+        onClick={handleClick}
         style={{
           ...cardStyle(dark),
+          textDecoration: "underline",
           background: "grey",
           width: "100%",
           borderRadius: 0,

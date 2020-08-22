@@ -39,13 +39,14 @@ function Main() {
           )}
         />
         <Route
+          path="/components-lab"
           render={({ match }) => (
             <Suspense fallback={<Loading />}>
               <Components match={match} />
             </Suspense>
           )}
         />
-        <Route exact path="/**">
+        <Route path="*">
           <Suspense fallback={<Loading />}>
             <NotFound />
           </Suspense>
