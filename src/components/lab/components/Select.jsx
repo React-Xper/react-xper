@@ -5,7 +5,7 @@ export function Select() {
   return (
     <div>
       <div>What do you think about this?</div>
-      <SelectComponent title="Select Idea 🤔" style={{ minWidth: "300px" }}>
+      <SelectComponent title="Select Idea 🤔" style={{ width: "300px" }}>
         <option value="">None ❌</option>
         <option value="1">Reacthesis-UI is good🤗</option>
         <option value="2">Reacthesis-UI is great😎</option>
