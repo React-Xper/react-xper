@@ -20,7 +20,7 @@ export const concepts = [
     link: "/reducer",
   },
   {
-    title: "Konva",
-    link: "/konva",
+    title: "3rd Party Libraries",
+    link: "/libraries",
   },
 ];

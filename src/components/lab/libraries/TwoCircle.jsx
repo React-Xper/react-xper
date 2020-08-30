@@ -89,7 +89,7 @@ export default function TwoCircle() {
 
   return (
     <Main pad="small">
-      <Heading level="2">Two Circles Experiment</Heading>
+      <Heading level="2">Konva Two Circles Experiment</Heading>
       <Box
         style={{ border: "2px solid black", minHeight: "80vh" }}
         ref={wrapperRef}

@@ -5,6 +5,7 @@ import { gridStyle } from "../../assets/theme/customStyle";
 import { ComponentWrapper } from "../shared/ComponentWrapper";
 import { Card } from "../lab/components/Card";
 import { TextInput } from "components/lab/components/TextInput";
+import { Select } from "components/lab/components/Select";
 
 function ComponentsMainComponent() {
   const dark = useTheme(ThemeContext).dark;
@@ -16,6 +17,9 @@ function ComponentsMainComponent() {
       </ComponentWrapper>
       <ComponentWrapper name="TextInput" link="/text-input">
         <TextInput />
+      </ComponentWrapper>
+      <ComponentWrapper name="Select" link="/select">
+        <Select />
       </ComponentWrapper>
     </Box>
   );
