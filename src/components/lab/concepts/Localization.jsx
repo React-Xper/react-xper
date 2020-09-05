@@ -44,6 +44,9 @@ export default function Localization() {
           />
           <section>
             Renovating in progress...
+            {
+              JSON.stringify(messages["English"])
+            }
           </section>
         </Paragraph>
       </Box>
