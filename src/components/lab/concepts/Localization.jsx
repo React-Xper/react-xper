@@ -1,6 +1,5 @@
 import React from "react";
 import { Box, Main, Heading, Paragraph, Select, Text } from "grommet";
-import { IntlProvider, FormattedMessage } from "react-intl";
 import en from "assets/localization/en.json";
 import zh_cn from "assets/localization/zh-cn.json";
 import ru from "assets/localization/ru.json";
@@ -18,10 +17,9 @@ export default function Localization() {
   return (
     <Main pad="xlarge">
       <Box>
-        <Heading level="2">Localizaton using react-intl</Heading>
+        <Heading level="2">Localization using bespoke method</Heading>
         <Paragraph fill={true}>
-          React-intl is a localization library by FormatJS to create
-          multi-language websites.
+          Reacthesis implemented an own localization framework
           <br />
           <br />
           Internationalized software supports the languages and cultural customs
@@ -33,12 +31,10 @@ export default function Localization() {
           typically localized for a small set of locales.
           <br />
           <br />
-          Read more on official FormatJS website at{" "}
-          <a href="https://formatjs.io/docs/react-intl">here</a>
         </Paragraph>
       </Box>
       <Box>
-        <Heading level="2">Localizaton using react-intl</Heading>
+        <Heading level="2"></Heading>
         <Paragraph>
           <label>Select Language</label>
           <Select
@@ -47,11 +43,7 @@ export default function Localization() {
             onChange={({ option }) => setLanguage(option)}
           />
           <section>
-            <IntlProvider locale={language} messages={messages[language]}>
-              <h1>
-                <FormattedMessage id="home.title" />
-              </h1>
-            </IntlProvider>
+            Renovating in progress...
           </section>
         </Paragraph>
       </Box>
