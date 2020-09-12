@@ -1157,6 +1157,13 @@
     prop-types "^15.5.10"
     recompose "0.27.1 - 0.30.0"
 
+"@bit/m3yevn.reacthesis-ui.button@^1.0.0":
+  version "1.0.0"
+  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.button/-/m3yevn.reacthesis-ui.button-1.0.0.tgz#88694e95eb767887455bae51590de9b214bf35a9"
+  integrity sha1-iGlOlet2eIdFW65RWQ3pshS/Nak=
+  dependencies:
+    react "^16.13.1"
+
 "@bit/m3yevn.reacthesis-ui.card@^1.0.2":
   version "1.0.2"
   resolved "https://node.bit.dev/m3yevn.reacthesis-ui.card/-/m3yevn.reacthesis-ui.card-1.0.2.tgz#0b90f3d0b307b4272d63ac05c2737c7c69e3e765"
@@ -1171,10 +1178,10 @@
   dependencies:
     react "^16.13.1"
 
-"@bit/m3yevn.reacthesis-ui.text-input@^1.0.2":
-  version "1.0.2"
-  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.text-input/-/m3yevn.reacthesis-ui.text-input-1.0.2.tgz#0174cf06edba4991d2e935c44b5b1338208ea1c3"
-  integrity sha1-AXTPBu26SZHS6TXES1sTOCCOocM=
+"@bit/m3yevn.reacthesis-ui.text-input@1.0.3":
+  version "1.0.3"
+  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.text-input/-/m3yevn.reacthesis-ui.text-input-1.0.3.tgz#75e2be5cf3052e223639ea7b8ccf40c99bd1fb43"
+  integrity sha1-deK+XPMFLiI2Oep7jM9AyZvR+0M=
   dependencies:
     react "^16.13.1"
 

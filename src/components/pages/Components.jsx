@@ -6,6 +6,7 @@ import { ComponentWrapper } from "../shared/ComponentWrapper";
 import { Card } from "../lab/components/Card";
 import { TextInput } from "components/lab/components/TextInput";
 import { Select } from "components/lab/components/Select";
+import { Button } from "components/lab/components/Button";
 
 function ComponentsMainComponent() {
   const dark = useTheme(ThemeContext).dark;
@@ -20,6 +21,9 @@ function ComponentsMainComponent() {
       </ComponentWrapper>
       <ComponentWrapper name="Select" link="/select">
         <Select />
+      </ComponentWrapper>
+      <ComponentWrapper name="Button" link="/button">
+        <Button />
       </ComponentWrapper>
     </Box>
   );
