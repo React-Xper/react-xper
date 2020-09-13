@@ -22,7 +22,7 @@ function AboutComponent() {
           React is a JavaScript library for building user interfaces.
           <br />
           <br />
-          To learn more about the react framework, please visit official &nbsp;
+          To learn more about the React framework, please visit official &nbsp;
           <a href="https://reactjs.org/">ReactJS</a> website to explore.
         </Paragraph>
       </Main>

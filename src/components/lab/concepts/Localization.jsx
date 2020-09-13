@@ -4,6 +4,10 @@ import en from "assets/localization/en.json";
 import zh_cn from "assets/localization/zh-cn.json";
 import ru from "assets/localization/ru.json";
 import { useState } from "react";
+import {
+  Translatable,
+  TranslateProvider,
+} from "@bit/m3yevn.reacthesis-ui.translator";
 
 const messages = {
   English: en,
@@ -17,9 +21,11 @@ export default function Localization() {
   return (
     <Main pad="xlarge">
       <Box>
-        <Heading level="2">Localization using bespoke method</Heading>
+        <Heading level="2">Localization using Reacthesis UI Translator</Heading>
         <Paragraph fill={true}>
-          Reacthesis implemented an own localization framework
+          Reacthesis UI implements an own localization framework
+          <br />
+          whic is truly simple and easy to use.
           <br />
           <br />
           Internationalized software supports the languages and cultural customs
@@ -42,12 +48,11 @@ export default function Localization() {
             value={language}
             onChange={({ option }) => setLanguage(option)}
           />
-          <section>
-            Renovating in progress...
-            {
-              JSON.stringify(messages["English"])
-            }
-          </section>
+          <div>
+            <TranslateProvider src={messages}>
+              <Translatable text="local.welcome_msg" language={language} />
+            </TranslateProvider>
+          </div>
         </Paragraph>
       </Box>
       <Box style={{ marginTop: 30 }}>

@@ -7,7 +7,7 @@ export function TextInput() {
       label="Enter your phone"
       prefix="+65"
       numberOnly
-      value="97330256"
+      value=""
       maxLength={10}
       required
     />

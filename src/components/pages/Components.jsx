@@ -7,6 +7,7 @@ import { Card } from "../lab/components/Card";
 import { TextInput } from "components/lab/components/TextInput";
 import { Select } from "components/lab/components/Select";
 import { Button } from "components/lab/components/Button";
+import { Translator } from "components/lab/components/Translator";
 
 function ComponentsMainComponent() {
   const dark = useTheme(ThemeContext).dark;
@@ -24,6 +25,9 @@ function ComponentsMainComponent() {
       </ComponentWrapper>
       <ComponentWrapper name="Button" link="/button">
         <Button />
+      </ComponentWrapper>
+      <ComponentWrapper name="Translator" link="/translator">
+        <Translator />
       </ComponentWrapper>
     </Box>
   );
