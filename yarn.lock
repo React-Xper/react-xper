@@ -1157,31 +1157,31 @@
     prop-types "^15.5.10"
     recompose "0.27.1 - 0.30.0"
 
-"@bit/m3yevn.reacthesis-ui.button@^1.0.0":
-  version "1.0.0"
-  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.button/-/m3yevn.reacthesis-ui.button-1.0.0.tgz#88694e95eb767887455bae51590de9b214bf35a9"
-  integrity sha1-iGlOlet2eIdFW65RWQ3pshS/Nak=
+"@bit/m3yevn.reacthesis-ui.button@^1.0.4":
+  version "1.0.4"
+  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.button/-/m3yevn.reacthesis-ui.button-1.0.4.tgz#1885317fc07c09508de9572fefcbf9466e454d18"
+  integrity sha1-GIUxf8B8CVCN6Vcv78v5Rm5FTRg=
   dependencies:
     react "^16.13.1"
 
-"@bit/m3yevn.reacthesis-ui.card@^1.0.2":
-  version "1.0.2"
-  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.card/-/m3yevn.reacthesis-ui.card-1.0.2.tgz#0b90f3d0b307b4272d63ac05c2737c7c69e3e765"
-  integrity sha1-C5Dz0LMHtCctY6wFwnN8fGnj52U=
+"@bit/m3yevn.reacthesis-ui.card@^1.0.4":
+  version "1.0.4"
+  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.card/-/m3yevn.reacthesis-ui.card-1.0.4.tgz#8613f5432d9ce736c07df0b51115b25807230586"
+  integrity sha1-hhP1Qy2c5zbAffC1ERWyWAcjBYY=
   dependencies:
     react "^16.13.1"
 
-"@bit/m3yevn.reacthesis-ui.select@^1.0.3":
-  version "1.0.3"
-  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.select/-/m3yevn.reacthesis-ui.select-1.0.3.tgz#9363afac4f12838167ac2ae3bbfe984ffe6aa7f7"
-  integrity sha1-k2OvrE8Sg4FnrCrju/6YT/5qp/c=
+"@bit/m3yevn.reacthesis-ui.select@^1.0.4":
+  version "1.0.4"
+  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.select/-/m3yevn.reacthesis-ui.select-1.0.4.tgz#5ee438189028ca354b25757f6b8d7211d03b9dd7"
+  integrity sha1-XuQ4GJAoyjVLJXV/a41yEdA7ndc=
   dependencies:
     react "^16.13.1"
 
-"@bit/m3yevn.reacthesis-ui.text-input@1.0.3":
-  version "1.0.3"
-  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.text-input/-/m3yevn.reacthesis-ui.text-input-1.0.3.tgz#75e2be5cf3052e223639ea7b8ccf40c99bd1fb43"
-  integrity sha1-deK+XPMFLiI2Oep7jM9AyZvR+0M=
+"@bit/m3yevn.reacthesis-ui.text-input@^1.0.4":
+  version "1.0.4"
+  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.text-input/-/m3yevn.reacthesis-ui.text-input-1.0.4.tgz#4c00a24268e6589eed6ad38fc478fccc3376d3a9"
+  integrity sha1-TACiQmjmWJ7tatOPxHj8zDN206k=
   dependencies:
     react "^16.13.1"
 
