@@ -20,6 +20,18 @@ export const concepts = [
     link: "/reducer",
   },
   {
+    title: "Context",
+    link: "/context",
+  },
+  {
+    title: "Composition",
+    link: "/composition",
+  },
+  {
+    title: "Render Props",
+    link: "/render-props",
+  },
+  {
     title: "3rd Party Libraries",
     link: "/libraries",
   },

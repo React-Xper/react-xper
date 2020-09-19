@@ -16,6 +16,9 @@ const Memoization = React.lazy(() => import("../lab/concepts/Memoization"));
 const Localization = React.lazy(() => import("../lab/concepts/Localization"));
 const Refs = React.lazy(() => import("../lab/concepts/Refs"));
 const Reducer = React.lazy(() => import("../lab/concepts/Reducer"));
+const Context = React.lazy(() => import("../lab/concepts/Context"));
+const Composition = React.lazy(() => import("../lab/concepts/Composition"));
+const RenderProps = React.lazy(() => import("../lab/concepts/RenderProps"));
 const LibraryLab = React.lazy(() => import("../lab/libraries/LibraryLab"));
 
 function ConceptsMainComponent() {
@@ -56,6 +59,9 @@ function ConceptsComponent({ match: { url } }) {
       <Route exact path={`${url}/localization`} component={Localization} />
       <Route exact path={`${url}/refs`} component={Refs} />
       <Route exact path={`${url}/reducer`} component={Reducer} />
+      <Route exact path={`${url}/context`} component={Context} />
+      <Route exact path={`${url}/composition`} component={Composition} />
+      <Route exact path={`${url}/render-props`} component={RenderProps} />
       <Route path={`${url}/libraries`} component={LibraryLab} />
       <Route exact path={`${url}`} component={ConceptsMainComponent} />
     </>
