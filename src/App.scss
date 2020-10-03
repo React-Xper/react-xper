@@ -125,3 +125,11 @@ table {
     }
   }
 }
+
+.reacthesis-konva-toolbox {
+  display: flex;
+  @media screen and (max-width: 568px) {
+    flex-direction: column;
+  }
+  flex-direction: row;
+}

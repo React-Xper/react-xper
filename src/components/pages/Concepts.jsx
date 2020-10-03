@@ -9,7 +9,7 @@ import {
   cardStyle,
   gridStyle,
   columnStyle,
-} from "../../assets/theme/customStyle";
+} from "assets/theme/customStyle";
 
 const Effects = React.lazy(() => import("../lab/concepts/Effects"));
 const Memoization = React.lazy(() => import("../lab/concepts/Memoization"));

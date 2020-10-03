@@ -7,6 +7,7 @@ import { useContext } from "react";
 import { useTheme } from "styled-components";
 import { cardStyle, gridStyle, columnStyle } from "assets/theme/customStyle";
 import TwoCircle from "./TwoCircle";
+import UndoRedo from "./UndoRedo";
 
 function LibraryLab() {
   const size = useContext(ResponsiveContext);
@@ -42,6 +43,7 @@ function LibraryLabComponent({ match: { url } }) {
   return (
     <Switch>
       <Route exact path={`${url}/konva-two-circles`} component={TwoCircle} />
+      <Route exact path={`${url}/konva-undo-redo`} component={UndoRedo} />
       <Route exact path={`${url}`} component={LibraryLab} />
     </Switch>
   );
