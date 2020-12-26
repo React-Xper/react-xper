@@ -7,4 +7,8 @@ export const libraryLabs = [
     title: "Konva Undo/Redo",
     link: "/konva-undo-redo",
   },
+  {
+    title: "Konva Color Replace",
+    link: "/konva-color-replace",
+  },
 ];
