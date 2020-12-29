@@ -20,9 +20,9 @@ export default () => {
   const dispatch = useDispatch();
   const [nodes, setNodes] = React.useState();
 
-  const trees = [];
-
   React.useEffect(() => {
+    const trees = [];
+
     if (!!editor) {
       function _getTitle(node) {
         var title = node.title || node.name;
@@ -63,7 +63,7 @@ export default () => {
         });
       });
     }
-  }, [editor, trees]);
+  }, [editor]);
 
   const handleDragStart = (name) => (e) => {
     dispatch({ type: "DRAG", payload: name });
