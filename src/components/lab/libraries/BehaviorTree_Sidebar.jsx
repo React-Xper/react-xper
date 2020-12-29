@@ -1,5 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
+import Button from "@bit/m3yevn.reacthesis-ui.button";
 import styled from "styled-components";
 
 const SidePane = styled("div")`
@@ -10,11 +11,12 @@ const SidePane = styled("div")`
   overflow-y: scroll;
   background: gray;
   display: inline-flex;
+  max-width: 300px;
   flex-direction: column;
 `;
 
 export default () => {
-  const editor = useSelector((state) => state?.editor);
+  const editor = useSelector((state) => state?.editor?.editor);
   const dispatch = useDispatch();
   const [nodes, setNodes] = React.useState();
 
@@ -69,11 +71,17 @@ export default () => {
 
   return (
     <SidePane>
-      {nodes?.composite.map((v) => (
-        <a onDragStart={handleDragStart(v?.name)} draggable={true}>
-          {v?.title}
-        </a>
-      ))}
+      {!!nodes &&
+        Object.keys(nodes).map((key) => (
+          <div>
+            <p style={{ textTransform: "capitalize" }}>{key}</p>
+            {nodes?.[key].map((v) => (
+              <Button onDragStart={handleDragStart(v?.name)} draggable={true}>
+                {v?.title}
+              </Button>
+            ))}
+          </div>
+        ))}
     </SidePane>
   );
 };

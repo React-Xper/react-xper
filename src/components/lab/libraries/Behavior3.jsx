@@ -1,6 +1,7 @@
 import React from "react";
 import { Main, Box, Heading, Text } from "grommet";
 import BehaviorTree_Sidebar from "./BehaviorTree_Sidebar";
+import BehaviorTree_Propertybar from "./BehaviorTree_Propertybar";
 import { useDispatch, useSelector } from "react-redux";
 
 const { b3e = {}, angular = {} } = window;
@@ -9,7 +10,7 @@ let { editor = {} } = window;
 export default () => {
   const b3Ref = React.useRef();
   const dispatch = useDispatch();
-  const editor = useSelector((state) => state?.editor);
+  const editor = useSelector((state) => state?.editor?.editor);
   const name = useSelector((state) => state?.editor?.draggingNode);
 
   React.useEffect(() => {
@@ -37,7 +38,7 @@ export default () => {
 
   const handleDragOver = (e) => {
     e.preventDefault();
-  }
+  };
 
   return (
     <Main pad="small">
@@ -45,6 +46,7 @@ export default () => {
       <Box style={{ border: "2px solid black", minHeight: "80vh" }}>
         <BehaviorTree_Sidebar />
         <div ref={b3Ref} onDragOver={handleDragOver} onDrop={handleDrop} />
+        <BehaviorTree_Propertybar />
       </Box>
       <Box style={{ marginTop: 30 }}>
         <Text>
