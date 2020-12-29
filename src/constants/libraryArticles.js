@@ -11,4 +11,8 @@ export const libraryLabs = [
     title: "Konva Color Replace",
     link: "/konva-color-replace",
   },
+  {
+    title: "Behavior3",
+    link: "/behavior-3",
+  },
 ];

@@ -9,6 +9,7 @@ import { cardStyle, gridStyle, columnStyle } from "assets/theme/customStyle";
 import TwoCircle from "./TwoCircle";
 import UndoRedo from "./UndoRedo";
 import ColorReplace from "./ColorReplace";
+import Behavior3 from "./Behavior3";
 
 function LibraryLab() {
   const size = useContext(ResponsiveContext);
@@ -46,6 +47,7 @@ function LibraryLabComponent({ match: { url } }) {
       <Route exact path={`${url}/konva-two-circles`} component={TwoCircle} />
       <Route exact path={`${url}/konva-undo-redo`} component={UndoRedo} />
       <Route exact path={`${url}/konva-color-replace`} component={ColorReplace} />
+      <Route exact path={`${url}/behavior-3`} component={Behavior3} />
       <Route exact path={`${url}`} component={LibraryLab} />
     </Switch>
   );
