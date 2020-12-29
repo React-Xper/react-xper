@@ -63,7 +63,7 @@ export default () => {
         });
       });
     }
-  }, [editor]);
+  }, [editor, trees]);
 
   const handleDragStart = (name) => (e) => {
     dispatch({ type: "DRAG", payload: name });

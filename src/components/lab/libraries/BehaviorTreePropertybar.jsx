@@ -1,5 +1,5 @@
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import TextField from "@bit/m3yevn.reacthesis-ui.text-input";
 import styled from "styled-components";
 import Button from "@bit/m3yevn.reacthesis-ui.button";
@@ -18,7 +18,6 @@ const SidePane = styled("div")`
 
 export default () => {
   const editor = useSelector((state) => state?.editor?.editor);
-  const dispatch = useDispatch();
   const [selected, setSelected] = React.useState();
 
   React.useEffect(() => {

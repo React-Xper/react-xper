@@ -1,11 +1,10 @@
 import React from "react";
 import { Main, Box, Heading, Text } from "grommet";
-import BehaviorTree_Sidebar from "./BehaviorTree_Sidebar";
-import BehaviorTree_Propertybar from "./BehaviorTree_Propertybar";
+import BehaviorTreeSidebar from "./BehaviorTreeSidebar";
+import BehaviorTreePropertybar from "./BehaviorTreePropertybar";
 import { useDispatch, useSelector } from "react-redux";
 
 const { b3e = {}, angular = {} } = window;
-let { editor = {} } = window;
 
 export default () => {
   const b3Ref = React.useRef();
@@ -26,7 +25,7 @@ export default () => {
     if (b3Ref.current) {
       b3Ref.current.appendChild(b3Canvas);
     }
-  }, []);
+  }, [dispatch]);
 
   const handleDrop = (e) => {
     const project = editor.project.get();
@@ -44,9 +43,9 @@ export default () => {
     <Main pad="small">
       <Heading level="2">Behavior3 Experiment</Heading>
       <Box style={{ border: "2px solid black", minHeight: "80vh" }}>
-        <BehaviorTree_Sidebar />
+        <BehaviorTreeSidebar />
         <div ref={b3Ref} onDragOver={handleDragOver} onDrop={handleDrop} />
-        <BehaviorTree_Propertybar />
+        <BehaviorTreePropertybar />
       </Box>
       <Box style={{ marginTop: 30 }}>
         <Text>
