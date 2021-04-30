@@ -9,7 +9,7 @@
     "@bit/m3yevn.reacthesis-ui.select": "^1.0.4",
     "@bit/m3yevn.reacthesis-ui.text-input": "^1.0.4",
     "@bit/m3yevn.reacthesis-ui.translator": "^1.0.4",
-    "add": "^2.0.6",
+    "@bit/m3yevn.reacthesis-ui.date-picker": "^1.0.5",
     "grommet": "^2.12.0",
     "konva": "^7.0.3",
     "react": "^16.13.1",
