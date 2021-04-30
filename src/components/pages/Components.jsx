@@ -8,6 +8,7 @@ import { TextInput } from "components/lab/components/TextInput";
 import { Select } from "components/lab/components/Select";
 import { Button } from "components/lab/components/Button";
 import { Translator } from "components/lab/components/Translator";
+import DatePicker from "components/lab/components/DatePicker";
 
 function ComponentsMainComponent() {
   const dark = useTheme(ThemeContext).dark;
@@ -28,6 +29,9 @@ function ComponentsMainComponent() {
       </ComponentWrapper>
       <ComponentWrapper name="Translator" link="/translator">
         <Translator />
+      </ComponentWrapper>
+      <ComponentWrapper name="DatePicker" link="/date-picker">
+        <DatePicker />
       </ComponentWrapper>
     </Box>
   );

@@ -5,7 +5,6 @@ import { theme } from "./assets/theme/theme";
 import { Navbar } from "./components/shared/Navbar";
 import { Grommet } from "grommet";
 import { useSelector } from "react-redux";
-import { Banner } from "./components/shared/Banner";
 import { Loading } from "./components/shared/Loading";
 
 const Home = React.lazy(() => import("./components/pages/Home"));
@@ -17,7 +16,6 @@ const NotFound = React.lazy(() => import("./components/pages/NotFound"));
 function Main() {
   return (
     <Router>
-      <Banner />
       <Navbar />
       <Switch>
         <Route exact path="/">
