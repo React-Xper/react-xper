@@ -1171,6 +1171,13 @@
   dependencies:
     react "^16.13.1"
 
+"@bit/m3yevn.reacthesis-ui.date-picker@^1.0.5":
+  version "1.0.5"
+  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.date-picker/-/m3yevn.reacthesis-ui.date-picker-1.0.5.tgz#d9b9e4a41cdd8475736ef6f7225b48ce8f6efafb"
+  integrity sha1-2bnkpBzdhHVzbvb3IltIzo9u+vs=
+  dependencies:
+    react "^16.13.1"
+
 "@bit/m3yevn.reacthesis-ui.select@^1.0.4":
   version "1.0.4"
   resolved "https://node.bit.dev/m3yevn.reacthesis-ui.select/-/m3yevn.reacthesis-ui.select-1.0.4.tgz#5ee438189028ca354b25757f6b8d7211d03b9dd7"
@@ -2095,11 +2102,6 @@ acorn@^7.1.1:
   version "7.4.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.4.0.tgz#e1ad486e6c54501634c6c397c5c121daa383607c"
   integrity sha512-+G7P8jJmCHr+S+cLfQxygbWhXy+8YTVGzAkpEbcLo2mLoL7tij/VG41QSHACSf5QgYRhMZYHuNc6drJaO0Da+w==
-
-add@^2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/add/-/add-2.0.6.tgz#248f0a9f6e5a528ef2295dbeec30532130ae2235"
-  integrity sha1-JI8Kn25aUo7yKV2+7DBTITCuIjU=
 
 address@1.1.2, address@^1.0.1:
   version "1.1.2"
