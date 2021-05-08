@@ -1157,38 +1157,45 @@
     prop-types "^15.5.10"
     recompose "0.27.1 - 0.30.0"
 
-"@bit/m3yevn.reacthesis-ui.button@^1.0.4":
-  version "1.0.4"
-  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.button/-/m3yevn.reacthesis-ui.button-1.0.4.tgz#1885317fc07c09508de9572fefcbf9466e454d18"
-  integrity sha1-GIUxf8B8CVCN6Vcv78v5Rm5FTRg=
+"@bit/m3yevn.reacthesis-ui.button@^1.0.6":
+  version "1.0.6"
+  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.button/-/m3yevn.reacthesis-ui.button-1.0.6.tgz#69ae43c53b3fa21c198ff4f90b21c5c6a81aac33"
+  integrity sha1-aa5DxTs/ohwZj/T5CyHFxqgarDM=
   dependencies:
     react "^16.13.1"
 
-"@bit/m3yevn.reacthesis-ui.card@^1.0.4":
-  version "1.0.4"
-  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.card/-/m3yevn.reacthesis-ui.card-1.0.4.tgz#8613f5432d9ce736c07df0b51115b25807230586"
-  integrity sha1-hhP1Qy2c5zbAffC1ERWyWAcjBYY=
+"@bit/m3yevn.reacthesis-ui.card@^1.0.6":
+  version "1.0.6"
+  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.card/-/m3yevn.reacthesis-ui.card-1.0.6.tgz#62573a6c83d2b7c0343a43dba1a75c04ac6d83c4"
+  integrity sha1-Ylc6bIPSt8A0OkPboadcBKxtg8Q=
   dependencies:
     react "^16.13.1"
 
-"@bit/m3yevn.reacthesis-ui.date-picker@^1.0.5":
-  version "1.0.5"
-  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.date-picker/-/m3yevn.reacthesis-ui.date-picker-1.0.5.tgz#d9b9e4a41cdd8475736ef6f7225b48ce8f6efafb"
-  integrity sha1-2bnkpBzdhHVzbvb3IltIzo9u+vs=
+"@bit/m3yevn.reacthesis-ui.date-picker@^1.0.6":
+  version "1.0.6"
+  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.date-picker/-/m3yevn.reacthesis-ui.date-picker-1.0.6.tgz#ab6f87027fde3c4777799913f7cf002e709aab35"
+  integrity sha1-q2+HAn/ePEd3eZkT988ALnCaqzU=
   dependencies:
     react "^16.13.1"
 
-"@bit/m3yevn.reacthesis-ui.select@^1.0.4":
-  version "1.0.4"
-  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.select/-/m3yevn.reacthesis-ui.select-1.0.4.tgz#5ee438189028ca354b25757f6b8d7211d03b9dd7"
-  integrity sha1-XuQ4GJAoyjVLJXV/a41yEdA7ndc=
+"@bit/m3yevn.reacthesis-ui.select@^1.0.6":
+  version "1.0.6"
+  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.select/-/m3yevn.reacthesis-ui.select-1.0.6.tgz#7421be2328c8facdd477e019d59a7b2917463959"
+  integrity sha1-dCG+IyjI+s3Ud+AZ1Zp7KRdGOVk=
   dependencies:
     react "^16.13.1"
 
-"@bit/m3yevn.reacthesis-ui.text-input@^1.0.4":
-  version "1.0.4"
-  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.text-input/-/m3yevn.reacthesis-ui.text-input-1.0.4.tgz#4c00a24268e6589eed6ad38fc478fccc3376d3a9"
-  integrity sha1-TACiQmjmWJ7tatOPxHj8zDN206k=
+"@bit/m3yevn.reacthesis-ui.text-input@^1.0.6":
+  version "1.0.6"
+  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.text-input/-/m3yevn.reacthesis-ui.text-input-1.0.6.tgz#da0dc3d9025389ade1aed4f037d9cf84df182927"
+  integrity sha1-2g3D2QJTia3hrtTwN9nPhN8YKSc=
+  dependencies:
+    react "^16.13.1"
+
+"@bit/m3yevn.reacthesis-ui.toast@^1.0.6":
+  version "1.0.6"
+  resolved "https://node.bit.dev/m3yevn.reacthesis-ui.toast/-/m3yevn.reacthesis-ui.toast-1.0.6.tgz#432f18f859858f7f1f3fed2bf4a4103d5acfb2fc"
+  integrity sha1-Qy8Y+FmFj38fP+0r9KQQPVrPsvw=
   dependencies:
     react "^16.13.1"
 

@@ -1,10 +1,6 @@
 import React from "react";
-import ButtonComponent from "@bit/m3yevn.reacthesis-ui.button";
+import { Button as ButtonComponent } from "components/styles/Button";
 
 export function Button() {
-  return (
-    <ButtonComponent style={{ maxHeight: "30px" }} shape="sharp">
-      Click Me!
-    </ButtonComponent>
-  );
+  return <ButtonComponent shape="sharp">Click Me!</ButtonComponent>;
 }

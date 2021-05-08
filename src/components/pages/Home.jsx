@@ -28,20 +28,17 @@ export default function HomeComponent() {
         align="center"
         pad="medium"
         alignSelf="center"
-        height="100%"
-      >
+        height="100vh !important">
         <Heading
           textAlign="center"
           responsive={true}
           level="1"
-          className={size !== "small" ? "reacthesis-logo-wrapper" : null}
-        >
+          className={size !== "small" ? "reacthesis-logo-wrapper" : null}>
           <div
             style={{ marginTop: size === "small" ? -40 : 0 }}
             className={`reacthesis-logo reacthesis-logo__home ${
               size === "small" ? "reacthesis-logo__home--small" : ""
-            }`}
-          ></div>
+            }`}></div>
           {size === "small" && <br />}
           <div style={{ marginTop: size !== "small" ? 50 : 0 }}>
             Reac<b>t</b>
@@ -51,8 +48,7 @@ export default function HomeComponent() {
             <span
               style={{ marginTop: size !== "small" ? 50 : 0 }}
               role="img"
-              aria-labelledby="science"
-            >
+              aria-labelledby="science">
               👨‍🔬
             </span>
           )}
@@ -70,8 +66,7 @@ export default function HomeComponent() {
             color="status-ok"
             href="https://github.com/m3yevn"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             {" "}
             m3yevn
           </Anchor>
