@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink, Route } from "react-router-dom";
 import { Box, ResponsiveContext, ThemeContext } from "grommet";
 import { concepts } from "constants/conceptsArticles";
-import Card from "@bit/m3yevn.reacthesis-ui.card";
+import Card from "@bit/m3yevn.react-xper-ui.card";
 import { useContext } from "react";
 import { useTheme } from "styled-components";
 import {

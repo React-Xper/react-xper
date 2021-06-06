@@ -1,6 +1,6 @@
 # ReacthesiS - A developer's guide to experiment React
 
-Reacthesis is a react-based website designed to experiment on different React concepts. It is developed by Kevin Moe Myint Myat(m3yevn).
+React Xper is a react-based website designed to experiment on different React concepts. It is developed by Kevin Moe Myint Myat(m3yevn).
 
 React is a JavaScript library for building user interfaces.
 
@@ -11,7 +11,7 @@ To learn more about the react framework, please visit [official ReactJS website]
 - Visit [this demo]
 - The demo is hosted on Vercel(previously Zeit)'s Now.sh domain.
 
-[this demo]: https://reacthesis.now.sh
+[this demo]: https://react-xper.now.sh
 
 ### 📚 Tech Stack
 

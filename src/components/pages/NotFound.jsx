@@ -7,7 +7,7 @@ function NotFoundComponent() {
       <Main justify="start" align="center" pad="medium">
         <Image
           src={require("assets/img/404.svg")}
-          className="reacthesis-img"
+          className="react-xper-img"
         />
         <Text>Page Not Found</Text>
       </Main>

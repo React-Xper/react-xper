@@ -33,16 +33,15 @@ export default function HomeComponent() {
           textAlign="center"
           responsive={true}
           level="1"
-          className={size !== "small" ? "reacthesis-logo-wrapper" : null}>
+          className={size !== "small" ? "react-xper-logo-wrapper" : null}>
           <div
             style={{ marginTop: size === "small" ? -40 : 0 }}
-            className={`reacthesis-logo reacthesis-logo__home ${
-              size === "small" ? "reacthesis-logo__home--small" : ""
+            className={`react-xper-logo react-xper-logo__home ${
+              size === "small" ? "react-xper-logo__home--small" : ""
             }`}></div>
           {size === "small" && <br />}
           <div style={{ marginTop: size !== "small" ? 50 : 0 }}>
-            Reac<b>t</b>
-            hesiS
+            React Xper
           </div>
           {size !== "small" && (
             <span

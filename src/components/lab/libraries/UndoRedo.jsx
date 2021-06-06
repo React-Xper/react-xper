@@ -182,7 +182,7 @@ export default class UndoRedo extends React.Component {
             <Layer ref={this.layerRef}></Layer>
           </Stage>
         </Box>
-        <div className="reacthesis-konva-toolbox">
+        <div className="react-xper-konva-toolbox">
           <Button color="brand" label="Circle" onClick={this.handleAddCircle} />
           <Button color="brand" label="Square" onClick={this.handleAddSquare} />
           <Button
@@ -196,7 +196,7 @@ export default class UndoRedo extends React.Component {
         <Box style={{ marginTop: 30 }}>
           <Text>
             View code at{" "}
-            <a href="https://github.com/m3yevn/reacthesis/blob/master/src/components/lab/libraries/UndoRedo.jsx">
+            <a href="https://github.com/m3yevn/react-xper/blob/master/src/components/lab/libraries/UndoRedo.jsx">
               Github
             </a>
           </Text>

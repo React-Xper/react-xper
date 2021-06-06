@@ -5,15 +5,15 @@ function AboutComponent() {
   return (
     <Box height="100%" justify="center" width="100vw" overflow="hidden">
       <Heading level="2" textAlign="center" responsive={true}>
-        About <span>Reacthesis</span>
+        About <span>React Xper</span>
       </Heading>
       <Main alignSelf="center" pad="medium">
         <Image
           src={require("assets/img/alien_science.svg")}
-          className="reacthesis-img"
+          className="react-xper-img"
         />
         <Paragraph responsive={true}>
-          Reacthesis is a react-based website designed to experiment on
+          React Xper is a react-based website designed to experiment on
           different React concepts and interesting React components. It is
           developed by &nbsp;
           <a href="https://github.com/m3yevn">Kevin Moe Myint Myat(m3yevn)</a>.

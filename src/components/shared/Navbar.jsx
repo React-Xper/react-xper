@@ -42,7 +42,7 @@ function NavbarComponent({ location }) {
           </NavLink>
           <Anchor
             color="status-ok"
-            href="https://github.com/m3yevn/reacthesis"
+            href="https://github.com/m3yevn/react-xper"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -92,7 +92,7 @@ function NavbarComponent({ location }) {
                 </NavLink>
                 <Anchor
                   color="status-ok"
-                  href="https://github.com/m3yevn/reacthesis"
+                  href="https://github.com/m3yevn/react-xper"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

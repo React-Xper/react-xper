@@ -1,7 +1,7 @@
 import React from "react";
 import { Box } from "grommet";
 import { Button } from "components/styles/Button";
-import toast, { ToastContainer } from "@bit/m3yevn.reacthesis-ui.toast";
+import toast, { ToastContainer } from "@bit/m3yevn.react-xper-ui.toast";
 
 const buttons = [
   { label: "Show Info Toast!", color: "primary", onClick: "info" },

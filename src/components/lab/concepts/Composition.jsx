@@ -81,7 +81,7 @@ export default () => {
       <Box style={{ marginTop: 30 }}>
         <Text>
           View code at{" "}
-          <a href="https://github.com/m3yevn/reacthesis/blob/master/src/components/lab/concepts/Composition.jsx">
+          <a href="https://github.com/m3yevn/react-xper/blob/master/src/components/lab/concepts/Composition.jsx">
             Github
           </a>
         </Text>

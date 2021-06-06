@@ -1,4 +1,4 @@
-import RtsButton from "@bit/m3yevn.reacthesis-ui.button";
+import RtsButton from "@bit/m3yevn.react-xper-ui.button";
 import styled from "styled-components";
 
 export const Button = styled(RtsButton)`

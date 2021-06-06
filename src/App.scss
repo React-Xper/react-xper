@@ -83,11 +83,11 @@ table {
 }
 
 //**Class Names**//
-.reacthesis-logo-wrapper {
+.react-xper-logo-wrapper {
   @include flew-row();
 }
 
-.reacthesis-logo {
+.react-xper-logo {
   width: 150px;
   height: 150px;
   background-size: contain;
@@ -102,11 +102,11 @@ table {
   }
 }
 
-.reacthesis-img {
+.react-xper-img {
   width: 300px;
 }
 
-.reacthesis-banner {
+.react-xper-banner {
   background-color: red;
   color: white;
   padding: 5px;
@@ -116,7 +116,7 @@ table {
   }
 }
 
-.reacthesis-concept-reducer {
+.react-xper-concept-reducer {
   &__button-wrapper {
     width: 500px;
 
@@ -126,7 +126,7 @@ table {
   }
 }
 
-.reacthesis-konva-toolbox {
+.react-xper-konva-toolbox {
   display: flex;
   @media screen and (max-width: 568px) {
     flex-direction: column;

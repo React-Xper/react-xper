@@ -2,14 +2,14 @@ import React from "react";
 import {
   TranslateProvider,
   Translatable,
-} from "@bit/m3yevn.reacthesis-ui.translator";
+} from "@bit/m3yevn.react-xper-ui.translator";
 
 const en = {
-  welcome_msg: "Reacthesis UI is the best!",
+  welcome_msg: "React Xper UI is the best!",
 };
 
 const zh_cn = {
-  welcome_msg: "Reacthesis UI 是最好的!",
+  welcome_msg: "React Xper UI 是最好的!",
 };
 
 const languageSrc = {

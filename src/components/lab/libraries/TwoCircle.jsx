@@ -121,7 +121,7 @@ export default function TwoCircle() {
       <Box style={{ marginTop: 30 }}>
         <Text>
           View code at{" "}
-          <a href="https://github.com/m3yevn/reacthesis/blob/master/src/components/lab/libraries/TwoCircle.jsx">
+          <a href="https://github.com/m3yevn/react-xper/blob/master/src/components/lab/libraries/TwoCircle.jsx">
             Github
           </a>
         </Text>

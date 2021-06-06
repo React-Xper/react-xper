@@ -105,7 +105,7 @@ export default function ColorReplace() {
       <Box style={{ marginTop: 30 }}>
         <Text>
           View code at{" "}
-          <a href="https://github.com/m3yevn/reacthesis/blob/master/src/components/lab/libraries/ColorReplace.jsx">
+          <a href="https://github.com/m3yevn/react-xper/blob/master/src/components/lab/libraries/ColorReplace.jsx">
             Github
           </a>
         </Text>

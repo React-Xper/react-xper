@@ -36,7 +36,7 @@ export default function Reducer() {
         </Paragraph>
       </Box>
 
-      <Box className="reacthesis-concept-reducer__button-wrapper">
+      <Box className="react-xper-concept-reducer__button-wrapper">
         <Paragraph style={{ backgroundColor: "whitesmoke", padding: "4px" }}>
           Current State = <br/>{JSON.stringify(colors)}
         </Paragraph>
@@ -59,7 +59,7 @@ export default function Reducer() {
       <Box style={{ marginTop: 30 }}>
         <Text>
           View code at{" "}
-          <a href="https://github.com/m3yevn/reacthesis/blob/master/src/components/lab/concepts/Reducer.jsx">
+          <a href="https://github.com/m3yevn/react-xper/blob/master/src/components/lab/concepts/Reducer.jsx">
             Github
           </a>
         </Text>

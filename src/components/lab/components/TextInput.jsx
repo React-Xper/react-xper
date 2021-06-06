@@ -1,5 +1,5 @@
 import React from "react";
-import TextInputComponent from "@bit/m3yevn.reacthesis-ui.text-input";
+import TextInputComponent from "@bit/m3yevn.react-xper-ui.text-input";
 
 export function TextInput() {
   return (

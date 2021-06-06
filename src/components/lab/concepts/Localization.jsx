@@ -7,7 +7,7 @@ import { useState } from "react";
 import {
   Translatable,
   TranslateProvider,
-} from "@bit/m3yevn.reacthesis-ui.translator";
+} from "@bit/m3yevn.react-xper-ui.translator";
 
 const messages = {
   English: en,
@@ -21,9 +21,9 @@ export default function Localization() {
   return (
     <Main pad="xlarge">
       <Box>
-        <Heading level="2">Localization using Reacthesis UI Translator</Heading>
+        <Heading level="2">Localization using React Xper UI Translator</Heading>
         <Paragraph fill={true}>
-          Reacthesis UI implements an own localization framework
+          React Xper UI implements an own localization framework
           <br />
           whic is truly simple and easy to use.
           <br />
@@ -59,7 +59,7 @@ export default function Localization() {
         <Text>
           View code at{" "}
           <a
-            href="https://github.com/m3yevn/reacthesis/blob/master/src/components/lab/concepts/Localization.jsx"
+            href="https://github.com/m3yevn/react-xper/blob/master/src/components/lab/concepts/Localization.jsx"
             alt="github"
           >
             Github

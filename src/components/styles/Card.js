@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import RtsCard from "@bit/m3yevn.reacthesis-ui.card";
+import RtsCard from "@bit/m3yevn.react-xper-ui.card";
 import styled from "styled-components";
 import { ThemeContext } from "grommet";
 

@@ -5,7 +5,7 @@ import { ResponsiveContext, ThemeContext } from "grommet";
 import { useTheme } from "styled-components";
 
 export const ComponentWrapper = ({ children, name, link }) => {
-  const baseUrl = "https://bit.dev/m3yevn/reacthesis-ui";
+  const baseUrl = "https://bit.dev/m3yevn/react-xper-ui";
   const size = useContext(ResponsiveContext);
   const dark = useTheme(ThemeContext).dark;
 
