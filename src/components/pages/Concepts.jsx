@@ -2,14 +2,10 @@ import React from "react";
 import { NavLink, Route } from "react-router-dom";
 import { Box, ResponsiveContext, ThemeContext } from "grommet";
 import { concepts } from "constants/conceptsArticles";
-import Card from "@bit/m3yevn.react-xper-ui.card";
+import Card from "react-xper-ui/dist/Card";
 import { useContext } from "react";
 import { useTheme } from "styled-components";
-import {
-  cardStyle,
-  gridStyle,
-  columnStyle,
-} from "assets/theme/customStyle";
+import { cardStyle, gridStyle, columnStyle } from "assets/theme/customStyle";
 
 const Effects = React.lazy(() => import("../lab/concepts/Effects"));
 const Memoization = React.lazy(() => import("../lab/concepts/Memoization"));
@@ -32,8 +28,7 @@ function ConceptsMainComponent() {
           <NavLink
             key={index}
             style={columnStyle(size)}
-            to={`/concepts-lab${value.link}`}
-          >
+            to={`/concepts-lab${value.link}`}>
             <Card style={cardStyle(dark)}>
               <img
                 width={200}

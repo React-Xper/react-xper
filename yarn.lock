@@ -1157,55 +1157,6 @@
     prop-types "^15.5.10"
     recompose "0.27.1 - 0.30.0"
 
-"@bit/m3yevn.react-xper-ui.button@^1.0.6":
-  version "1.0.6"
-  resolved "https://node.bit.dev/m3yevn.react-xper-ui.button/-/m3yevn.react-xper-ui.button-1.0.6.tgz#69ae43c53b3fa21c198ff4f90b21c5c6a81aac33"
-  integrity sha1-aa5DxTs/ohwZj/T5CyHFxqgarDM=
-  dependencies:
-    react "^16.13.1"
-
-"@bit/m3yevn.react-xper-ui.card@^1.0.6":
-  version "1.0.6"
-  resolved "https://node.bit.dev/m3yevn.react-xper-ui.card/-/m3yevn.react-xper-ui.card-1.0.6.tgz#62573a6c83d2b7c0343a43dba1a75c04ac6d83c4"
-  integrity sha1-Ylc6bIPSt8A0OkPboadcBKxtg8Q=
-  dependencies:
-    react "^16.13.1"
-
-"@bit/m3yevn.react-xper-ui.date-picker@^1.0.6":
-  version "1.0.6"
-  resolved "https://node.bit.dev/m3yevn.react-xper-ui.date-picker/-/m3yevn.react-xper-ui.date-picker-1.0.6.tgz#ab6f87027fde3c4777799913f7cf002e709aab35"
-  integrity sha1-q2+HAn/ePEd3eZkT988ALnCaqzU=
-  dependencies:
-    react "^16.13.1"
-
-"@bit/m3yevn.react-xper-ui.select@^1.0.6":
-  version "1.0.6"
-  resolved "https://node.bit.dev/m3yevn.react-xper-ui.select/-/m3yevn.react-xper-ui.select-1.0.6.tgz#7421be2328c8facdd477e019d59a7b2917463959"
-  integrity sha1-dCG+IyjI+s3Ud+AZ1Zp7KRdGOVk=
-  dependencies:
-    react "^16.13.1"
-
-"@bit/m3yevn.react-xper-ui.text-input@^1.0.6":
-  version "1.0.6"
-  resolved "https://node.bit.dev/m3yevn.react-xper-ui.text-input/-/m3yevn.react-xper-ui.text-input-1.0.6.tgz#da0dc3d9025389ade1aed4f037d9cf84df182927"
-  integrity sha1-2g3D2QJTia3hrtTwN9nPhN8YKSc=
-  dependencies:
-    react "^16.13.1"
-
-"@bit/m3yevn.react-xper-ui.toast@^1.0.6":
-  version "1.0.6"
-  resolved "https://node.bit.dev/m3yevn.react-xper-ui.toast/-/m3yevn.react-xper-ui.toast-1.0.6.tgz#432f18f859858f7f1f3fed2bf4a4103d5acfb2fc"
-  integrity sha1-Qy8Y+FmFj38fP+0r9KQQPVrPsvw=
-  dependencies:
-    react "^16.13.1"
-
-"@bit/m3yevn.react-xper-ui.translator@^1.0.4":
-  version "1.0.4"
-  resolved "https://node.bit.dev/m3yevn.react-xper-ui.translator/-/m3yevn.react-xper-ui.translator-1.0.4.tgz#983c3ef507283509e9f01f2cd038b9b48efaee84"
-  integrity sha1-mDw+9QcoNQnp8B8s0Di5tI767oQ=
-  dependencies:
-    react "^16.13.1"
-
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"
@@ -9548,6 +9499,11 @@ react-scripts@3.4.1:
     workbox-webpack-plugin "4.3.1"
   optionalDependencies:
     fsevents "2.1.2"
+
+react-xper-ui@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-xper-ui/-/react-xper-ui-1.0.2.tgz#49ee2ff7887f4255f7658f4aadd1d665aff25c2e"
+  integrity sha512-/Dh0EK1q/ZWIsXWI4kD+Rk0j+H2J4RRz6FlfRaqhxPvOr36CCa0NaMN1DTWzZrjLJr5ljwNAVnesdwks9kh69g==
 
 react@^16.13.1:
   version "16.13.1"

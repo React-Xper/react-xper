@@ -1,8 +1,8 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import TextField from "@bit/m3yevn.react-xper-ui.text-input";
+import TextField from "react-xper-ui/dist/TextInput";
 import styled from "styled-components";
-import Button from "@bit/m3yevn.react-xper-ui.button";
+import Button from "react-xper-ui/dist/Button";
 
 const SidePane = styled("div")`
   position: absolute;

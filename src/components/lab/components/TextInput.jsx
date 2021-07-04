@@ -1,5 +1,5 @@
 import React from "react";
-import TextInputComponent from "@bit/m3yevn.react-xper-ui.text-input";
+import TextInputComponent from "react-xper-ui/dist/TextInput";
 
 export function TextInput() {
   return (

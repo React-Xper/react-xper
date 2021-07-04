@@ -4,10 +4,7 @@ import en from "assets/localization/en.json";
 import zh_cn from "assets/localization/zh-cn.json";
 import ru from "assets/localization/ru.json";
 import { useState } from "react";
-import {
-  Translatable,
-  TranslateProvider,
-} from "@bit/m3yevn.react-xper-ui.translator";
+import { Translatable, TranslateProvider } from "react-xper-ui/dist/Translator";
 
 const messages = {
   English: en,
@@ -60,8 +57,7 @@ export default function Localization() {
           View code at{" "}
           <a
             href="https://github.com/m3yevn/react-xper/blob/master/src/components/lab/concepts/Localization.jsx"
-            alt="github"
-          >
+            alt="github">
             Github
           </a>
         </Text>

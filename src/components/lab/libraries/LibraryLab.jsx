@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink, Route, Switch } from "react-router-dom";
 import { Box, ResponsiveContext, ThemeContext } from "grommet";
 import { libraryLabs } from "constants/libraryArticles";
-import Card from "@bit/m3yevn.react-xper-ui.card";
+import Card from "react-xper-ui/dist/Card";
 import { useContext } from "react";
 import { useTheme } from "styled-components";
 import { cardStyle, gridStyle, columnStyle } from "assets/theme/customStyle";
@@ -22,8 +22,7 @@ function LibraryLab() {
           <NavLink
             key={index}
             style={columnStyle(size)}
-            to={`/concepts-lab/libraries${value.link}`}
-          >
+            to={`/concepts-lab/libraries${value.link}`}>
             <Card style={cardStyle(dark)}>
               <img
                 width={200}
@@ -46,7 +45,11 @@ function LibraryLabComponent({ match: { url } }) {
     <Switch>
       <Route exact path={`${url}/konva-two-circles`} component={TwoCircle} />
       <Route exact path={`${url}/konva-undo-redo`} component={UndoRedo} />
-      <Route exact path={`${url}/konva-color-replace`} component={ColorReplace} />
+      <Route
+        exact
+        path={`${url}/konva-color-replace`}
+        component={ColorReplace}
+      />
       <Route exact path={`${url}/behavior-3`} component={Behavior3} />
       <Route exact path={`${url}`} component={LibraryLab} />
     </Switch>

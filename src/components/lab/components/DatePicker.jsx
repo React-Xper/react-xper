@@ -1,5 +1,5 @@
 import React from "react";
-import DatePicker from "@bit/m3yevn.react-xper-ui.date-picker";
+import DatePicker from "react-xper-ui/dist/DatePicker";
 
 export default () => {
   const [dateValue, setDateValue] = React.useState();
