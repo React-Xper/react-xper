@@ -1,13 +1,12 @@
 # React-xper
 
-<p>Version 0.1.0</p>
+**React Xper is a react-based website designed to experiment on different React concepts. It is developed by Kevin Moe Myint Myat(m3yevn). React is a JavaScript library for building user interfaces. To learn more about the react framework, please visit [official ReactJS website](https://reactjs.org) to explore**
+
+<p>Version 1.0.0</p>
 <p>by m3yevn</p>
 
 <hr/>
 
- - React Xper is a react-based website designed to experiment on different React concepts. It is developed by Kevin Moe Myint Myat(m3yevn).
- - React is a JavaScript library for building user interfaces.
- - To learn more about the react framework, please visit [official ReactJS website](https://reactjs.org) to explore.
 
 
 
