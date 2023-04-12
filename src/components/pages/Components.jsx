@@ -6,6 +6,7 @@ import { ComponentWrapper } from "../shared/ComponentWrapper";
 import { Card } from "../lab/components/Card";
 import { TextInput } from "components/lab/components/TextInput";
 import { Select } from "components/lab/components/Select";
+import { Accordion } from "components/lab/components/Accordion";
 import { Button } from "components/lab/components/Button";
 import { Translator } from "components/lab/components/Translator";
 import DatePicker from "components/lab/components/DatePicker";
@@ -17,29 +18,32 @@ function ComponentsMainComponent() {
 
   return (
     <Box style={{ ...gridStyle(dark), minHeight: "100vh" }}>
-      <ComponentWrapper name="Card" link="/card">
-        <Card />
-      </ComponentWrapper>
-      <ComponentWrapper name="TextInput" link="/text-input">
-        <TextInput />
-      </ComponentWrapper>
-      <ComponentWrapper name="Select" link="/select">
-        <Select />
+      <ComponentWrapper name="Accordion" link="/accordion">
+        <Accordion />
       </ComponentWrapper>
       <ComponentWrapper name="Button" link="/button">
         <Button />
       </ComponentWrapper>
-      <ComponentWrapper name="Translator" link="/translator">
-        <Translator />
+      <ComponentWrapper name="Card" link="/card">
+        <Card />
+      </ComponentWrapper>
+      <ComponentWrapper name="Carousel" link="/carousel">
+        <Carousel />
       </ComponentWrapper>
       <ComponentWrapper name="DatePicker" link="/date-picker">
         <DatePicker />
       </ComponentWrapper>
+      <ComponentWrapper name="Select" link="/select">
+        <Select />
+      </ComponentWrapper>
+      <ComponentWrapper name="TextInput" link="/text-input">
+        <TextInput />
+      </ComponentWrapper>
       <ComponentWrapper name="Toast" link="/toast">
         <Toast />
       </ComponentWrapper>
-      <ComponentWrapper name="Carousel" link="/carousel">
-        <Carousel />
+      <ComponentWrapper name="Translator" link="/translator">
+        <Translator />
       </ComponentWrapper>
     </Box>
   );
