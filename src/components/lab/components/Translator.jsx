@@ -1,5 +1,5 @@
 import React from "react";
-import { TranslateProvider, Translatable } from "react-xper-ui/dist/Translator";
+import { TranslateProvider, Translatable } from "react-xper-ui/dist/translator";
 
 const en = {
   welcome_msg: "React Xper UI is the best!",

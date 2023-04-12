@@ -2,7 +2,7 @@
 
 **React Xper is a react-based website designed to experiment on different React concepts. It is developed by Kevin Moe Myint Myat(m3yevn). React is a JavaScript library for building user interfaces. To learn more about the react framework, please visit [official ReactJS website](https://reactjs.org) to explore**
 
-<p>Version 1.0.0</p>
+<p>Version 1.0.1</p>
 <p>by m3yevn</p>
 
 <hr/>
@@ -26,7 +26,7 @@ https://react-xper.vercel.app
 
 ## 📸 Screenshots
 
-N.A
+
 
 ## 📜 Scripts
 
@@ -52,7 +52,7 @@ This project does not have a license.
 
 ## Dependencies
 
- - @bit/davidhu2000.react-spinners.ring-loader : $ ^0.5.1
+ - react-spinners : $ ^0.13.8
  - grommet : $ ^2.12.0
  - konva : $ ^7.0.3
  - react : $ ^16.13.1
@@ -62,7 +62,7 @@ This project does not have a license.
  - react-konva : $ ^16.13.0-3
  - react-redux : $ ^7.2.0
  - react-router-dom : $ ^5.1.2
- - react-xper-ui : $ ^1.0.2
+ - react-xper-ui : $ ^1.0.4
  - redux : $ ^4.0.5
  - redux-thunk : $ ^2.3.0
  - styled-components : $ ^5.1.0

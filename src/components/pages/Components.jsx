@@ -10,6 +10,7 @@ import { Button } from "components/lab/components/Button";
 import { Translator } from "components/lab/components/Translator";
 import DatePicker from "components/lab/components/DatePicker";
 import Toast from "components/lab/components/Toast";
+import { Carousel } from "components/lab/components/Carousel";
 
 function ComponentsMainComponent() {
   const dark = useTheme(ThemeContext).dark;
@@ -36,6 +37,9 @@ function ComponentsMainComponent() {
       </ComponentWrapper>
       <ComponentWrapper name="Toast" link="/toast">
         <Toast />
+      </ComponentWrapper>
+      <ComponentWrapper name="Carousel" link="/carousel">
+        <Carousel />
       </ComponentWrapper>
     </Box>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import Button from "react-xper-ui/dist/Button";
+import Button from "react-xper-ui/dist/button";
 import styled from "styled-components";
 
 const SidePane = styled("div")`
