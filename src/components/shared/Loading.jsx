@@ -1,6 +1,6 @@
 import React from "react";
 import { Box } from "grommet";
-import RingLoader from "@bit/davidhu2000.react-spinners.ring-loader";
+import RingLoader from "react-spinners/RingLoader";
 
 export function Loading() {
   return (
