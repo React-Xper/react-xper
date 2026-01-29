@@ -1,10 +1,12 @@
-import RtsButton from "react-xper-ui/dist/button";
+import RtsCarousel from "react-xper-ui/dist/carousel";
 import styled from "styled-components";
 
-export const Button = styled(RtsButton)`
-  max-height: 30px;
+export const Carousel = styled(RtsCarousel)`
   margin: 4px;
   color: #292929 !important;
   font-weight: 500 !important;
   font-family: "Abril Fatface", serif !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;

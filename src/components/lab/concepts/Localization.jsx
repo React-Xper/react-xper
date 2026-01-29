@@ -4,7 +4,7 @@ import en from "assets/localization/en.json";
 import zh_cn from "assets/localization/zh-cn.json";
 import ru from "assets/localization/ru.json";
 import { useState } from "react";
-import { Translatable, TranslateProvider } from "react-xper-ui/dist/Translator";
+import { Translatable, TranslateProvider } from "react-xper-ui/dist/translator";
 
 const messages = {
   English: en,

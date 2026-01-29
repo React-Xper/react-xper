@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink, Route, Switch } from "react-router-dom";
 import { Box, ResponsiveContext, ThemeContext } from "grommet";
 import { libraryLabs } from "constants/libraryArticles";
-import Card from "react-xper-ui/dist/Card";
+import Card from "react-xper-ui/dist/card";
 import { useContext } from "react";
 import { useTheme } from "styled-components";
 import { cardStyle, gridStyle, columnStyle } from "assets/theme/customStyle";
