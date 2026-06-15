@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, ResponsiveContext } from "grommet";
+import { BRAND } from "constants/brand";
 
 export function Banner() {
   const size = React.useContext(ResponsiveContext);
@@ -7,10 +8,8 @@ export function Banner() {
   return (
     <Box width="100vw" justify="center" className="react-xper-banner">
       <div>
-        Myanmar Votes Matter. {size === "small" && <br />}
-        <a href="https://www.channelnewsasia.com/news/asia/myanmar-doctors-medics-civil-disobedience-calls-activists-14103732">
-          Support Myanmar Civil Disobedience
-        </a>
+        <strong>react-xper-ui</strong> is on npm — {size === "small" && <br />}
+        <a href={BRAND.uiLibraryUrl}>View the component library →</a>
       </div>
     </Box>
   );

@@ -10,14 +10,11 @@ import {
 } from "grommet";
 import { useHistory } from "react-router-dom";
 import { Heading } from "components/styles/Heading";
+import { BRAND } from "constants/brand";
 
 export default function HomeComponent() {
   const size = React.useContext(ResponsiveContext);
   const history = useHistory();
-
-  const handleButtonClick = () => {
-    history.push("/concepts-lab");
-  };
 
   return (
     <Box height="100%">
@@ -41,40 +38,36 @@ export default function HomeComponent() {
             }`}></div>
           {size === "small" && <br />}
           <div style={{ marginTop: size !== "small" ? 50 : 0 }}>
-            React Xper
+            {BRAND.name}
           </div>
-          {size !== "small" && (
-            <span
-              style={{ marginTop: size !== "small" ? 50 : 0 }}
-              role="img"
-              aria-labelledby="science">
-              👨‍🔬
-            </span>
-          )}
         </Heading>
         <Heading textAlign="center" responsive={true} level="4">
-          A developer's guide to experiment React
+          {BRAND.tagline}
         </Heading>
-        <Text color="gray" textAlign="center" size="small">
-          Made with{" "}
-          <span role="img" aria-labelledby="heart">
-            ❤️
-          </span>{" "}
-          by
+        <Text color="gray" textAlign="center" size="small" margin={{ top: "small" }}>
+          Part of the{" "}
+          <Anchor color="status-ok" href={BRAND.orgUrl} target="_blank" rel="noopener noreferrer">
+            @React-Xper
+          </Anchor>{" "}
+          ecosystem ·{" "}
           <Anchor
             color="status-ok"
-            href="https://github.com/m3yevn"
+            href={BRAND.uiLibraryUrl}
             target="_blank"
             rel="noopener noreferrer">
-            {" "}
-            m3yevn
+            react-xper-ui
           </Anchor>
         </Text>
-        <Footer justify="center" pad="small">
+        <Footer justify="center" pad="small" gap="small">
           <Button
             color="brand"
-            label="Get Started"
-            onClick={handleButtonClick}
+            label="Explore patterns"
+            onClick={() => history.push("/patterns")}
+          />
+          <Button
+            color="neutral-1"
+            label="UI library"
+            onClick={() => window.open(BRAND.uiLibraryUrl, "_blank", "noopener,noreferrer")}
           />
         </Footer>
       </Main>

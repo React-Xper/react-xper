@@ -28,7 +28,7 @@ function ConceptsMainComponent() {
           <NavLink
             key={index}
             style={columnStyle(size)}
-            to={`/concepts-lab${value.link}`}>
+            to={`/patterns${value.link}`}>
             <Card style={cardStyle(dark)}>
               <img
                 width={200}

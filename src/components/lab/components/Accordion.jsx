@@ -4,10 +4,10 @@ import AccordionComponent from "react-xper-ui/dist/accordion";
 
 export function Accordion() {
   return (
-    <AccordionComponent title="React Xper Accordion">
+    <AccordionComponent title="React Xper Studio">
       <Paragraph responsive={true}>
-        React Xper is a react-based website designed to experiment on different
-        React concepts and interesting React components.
+        React Xper Studio showcases production-ready React patterns and the
+        react-xper-ui component library.
       </Paragraph>
     </AccordionComponent>
   );

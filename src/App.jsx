@@ -13,6 +13,18 @@ const Concepts = React.lazy(() => import("./components/pages/Concepts"));
 const Components = React.lazy(() => import("./components/pages/Components"));
 const NotFound = React.lazy(() => import("./components/pages/NotFound"));
 
+const conceptsRoute = ({ match }) => (
+  <Suspense fallback={<Loading />}>
+    <Concepts match={match} />
+  </Suspense>
+);
+
+const componentsRoute = ({ match }) => (
+  <Suspense fallback={<Loading />}>
+    <Components match={match} />
+  </Suspense>
+);
+
 function Main() {
   return (
     <Router>
@@ -28,21 +40,15 @@ function Main() {
             <About />
           </Suspense>
         </Route>
+        <Route exact path="/patterns" render={conceptsRoute} />
         <Route
           path="/concepts-lab"
-          render={({ match }) => (
-            <Suspense fallback={<Loading />}>
-              <Concepts match={match} />
-            </Suspense>
-          )}
+          render={conceptsRoute}
         />
+        <Route exact path="/components" render={componentsRoute} />
         <Route
           path="/components-lab"
-          render={({ match }) => (
-            <Suspense fallback={<Loading />}>
-              <Components match={match} />
-            </Suspense>
-          )}
+          render={componentsRoute}
         />
         <Route path="*">
           <Suspense fallback={<Loading />}>

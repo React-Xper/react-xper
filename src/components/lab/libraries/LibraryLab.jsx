@@ -22,11 +22,11 @@ function LibraryLab() {
           <NavLink
             key={index}
             style={columnStyle(size)}
-            to={`/concepts-lab/libraries${value.link}`}>
+            to={`/patterns/libraries${value.link}`}>
             <Card style={cardStyle(dark)}>
               <img
                 width={200}
-                alt="library-experiments"
+                alt="canvas-tools"
                 src={require("assets/img/canvas.svg")}
               />
               <div>

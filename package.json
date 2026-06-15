@@ -1,7 +1,7 @@
 {
-  "name": "react-xper",
-  "version": "1.0.1",
-  "description": "React Xper is a react-based website designed to experiment on different React concepts. It is developed by Kevin Moe Myint Myat(m3yevn). React is a JavaScript library for building user interfaces. To learn more about the react framework, please visit [official ReactJS website](https://reactjs.org) to explore",
+  "name": "react-xper-studio",
+  "version": "2.0.0",
+  "description": "React Xper Studio — the official React-Xper showcase for UI patterns, canvas tools, and react-xper-ui components.",
   "author": "m3yevn",
   "publicUrl": "https://react-xper.vercel.app",
   "private": true,

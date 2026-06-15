@@ -1,25 +1,16 @@
 {
-  "short_name": "ReacthesiS",
-  "name": "ReacthesiS - A developer's guide to experiment React",
+  "short_name": "Xper Studio",
+  "name": "React Xper Studio",
+  "description": "The React UI studio — components, canvas, and patterns.",
   "icons": [
     {
       "src": "favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml"
-    },
-    {
-      "src": "android-chrome-192x192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "android-chrome-512x512.png",
-      "type": "image/png",
-      "sizes": "512x512"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#0a0a0a",
+  "background_color": "#0a0a0a"
 }

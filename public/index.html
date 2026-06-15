@@ -2,109 +2,60 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="keywords"
-      content="React Xper, react-xper, reactjs, react, thesis, react thesis, React thesis, React Thesis, React Sythesis, React sythesis,
-  React Xper.now.sh, Kevin Moe Myint Myat, m3yevn, Kevin Moe, Kevn Moe Myint Myat, Kevn Moe, Kevin Moe Myint, Moe Myint Myat"
-    />
-    <meta
-      prefix="og: http://ogp.me/ns#"
-      name="image"
-      property="og:image"
-      content="https://en.wikipedia.org/wiki/React_(web_framework)#/media/File:React-icon.svg"
-    />
-    <meta
-      prefix="og: http://ogp.me/ns#"
-      property="og:site_name"
-      content="React Xper - A developer's guide to experiment React"
-    />
-    <meta prefix="og: http://ogp.me/ns#" property="og:type" content="profile" />
-    <meta
-      prefix="og: http://ogp.me/ns#"
-      property="og:title"
-      content="React Xper - A developer's guide to experiment React"
-    />
-    <meta
-      prefix="og: http://ogp.me/ns#"
-      property="og:url"
-      content="https://react-xper.now.sh/"
-    />
-    <meta
-      prefix="og: http://ogp.me/ns#"
-      property="og:description"
-      content="React Xper is a laboratory to experiment concepts relating to ReactJs, built by Kevin Moe Myint Myat (m3yevn)"
-    />
-    <meta
-      name="twitter:title"
-      content="React Xper - A developer's guide to experiment React"
-    />
-    <meta
-      name="twitter:description"
-      content="React Xper is a laboratory to experiment concepts relating to ReactJs, built by Kevin Moe Myint Myat (m3yevn)"
-    />
-    <meta
-      property="profile:username"
-      content="React Xper - A developer's guide to experiment React"
-    />
-    <meta name="author" content="Kevin Moe Myint Myat" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.svg" type="image/svg+xml" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <title>React Xper Studio — React UI studio</title>
     <meta
       name="description"
-      content="A developer's guide to experiment React"
+      content="React Xper Studio — production UI patterns, canvas tools, and the react-xper-ui component library. By @React-Xper."
+    />
+    <meta
+      name="keywords"
+      content="React Xper Studio, react-xper-ui, React components, Konva canvas, React patterns, React-Xper"
+    />
+    <meta name="author" content="Kevin Moe Myint Myat" />
+    <meta name="theme-color" content="#0a0a0a" />
+    <link rel="canonical" href="https://react-xper.vercel.app/" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.svg" type="image/svg+xml" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="React Xper Studio" />
+    <meta property="og:title" content="React Xper Studio — React UI studio" />
+    <meta property="og:url" content="https://react-xper.vercel.app/" />
+    <meta
+      property="og:description"
+      content="Components, canvas, and patterns — the official React-Xper showcase."
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="React Xper Studio" />
+    <meta
+      name="twitter:description"
+      content="The React UI studio for components, canvas, and patterns."
     />
     <meta
       name="google-site-verification"
       content="JVTPLOB0jNJ6xYYcxLqtg_2_E7sEoVMiu80fseOv6yk"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React Xper - A developer's guide to experiment React</title>
     <style>
       #root_default {
         height: 100vh;
         display: flex;
         justify-content: center;
-
         align-items: center;
-        font-size: 120px;
-        font-family: "Abril Fatface", serif;
-        font-weight: 600;
+        font-size: clamp(2rem, 8vw, 4rem);
+        font-family: Inter, system-ui, sans-serif;
+        font-weight: 700;
+        color: #e8e8e8;
+        background: #0a0a0a;
       }
+      #root_default span { color: #61dafb; }
     </style>
   </head>
-
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>You need to enable JavaScript to run React Xper Studio.</noscript>
     <div id="root">
-      <div id="root_default">React Xper 👨‍🔬</div>
+      <div id="root_default">React <span>Xper Studio</span></div>
     </div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <script src="%PUBLIC_URL%/js/vendor.min.js"></script>
+    <script src="%PUBLIC_URL%/js/editor.min.js"></script>
   </body>
-
-  <script src="%PUBLIC_URL%/js/vendor.min.js"></script>
-  <script src="%PUBLIC_URL%/js/editor.min.js"></script>
 </html>
