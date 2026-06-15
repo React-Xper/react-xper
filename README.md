@@ -1,16 +1,18 @@
-# React Xper Studio
+# Meridian Studio
 
-**React Xper Studio** — the official [@React-Xper](https://github.com/React-Xper) showcase for UI patterns, canvas tools, and [react-xper-ui](https://react-xper-ui.vercel.app).
+**Meridian Studio** — patterns, Konva canvas, and live galleries on the **Meridian** platform.
 
-- **Live:** [react-xper.vercel.app](https://react-xper.vercel.app)
-- **UI library:** [react-xper-ui.vercel.app](https://react-xper-ui.vercel.app)
+| Product | URL |
+|---------|-----|
+| **Studio** (this repo) | [react-xper.vercel.app](https://react-xper.vercel.app) |
+| **UI** | [react-xper-ui.vercel.app](https://react-xper-ui.vercel.app) |
 
 ## What it is
 
 | Section | Path | Content |
 |---------|------|---------|
 | **Patterns** | `/patterns` | Hooks, context, composition, performance guides |
-| **Components** | `/components` | Live react-xper-ui demos |
+| **Components** | `/components` | Live Meridian UI demos |
 | **Canvas** | `/patterns/libraries` | Konva editors, behavior trees, drawing tools |
 
 Legacy URLs `/concepts-lab` and `/components-lab` still work.

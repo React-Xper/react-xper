@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Heading, Paragraph, Main, Image, Anchor } from "grommet";
-import { BRAND } from "constants/brand";
+import { BRAND, ECOSYSTEM, PRODUCTS } from "constants/brand";
 
 function AboutComponent() {
   return (
@@ -14,20 +14,23 @@ function AboutComponent() {
           className="react-xper-img"
         />
         <Paragraph responsive={true}>
-          <strong>{BRAND.name}</strong> is the official showcase for the{" "}
+          <strong>{BRAND.name}</strong> is the interactive studio for{" "}
           <Anchor href={BRAND.orgUrl} target="_blank" rel="noopener noreferrer">
-            React-Xper
+            {ECOSYSTEM.name}
           </Anchor>{" "}
-          ecosystem — not a throwaway experiment repo, but a durable studio for
-          shipping React interfaces.
+          — patterns, canvas tools, and live demos for{" "}
+          <Anchor href={PRODUCTS.ui.npmUrl} target="_blank" rel="noopener noreferrer">
+            {PRODUCTS.ui.name}
+          </Anchor>
+          .
         </Paragraph>
         <Paragraph responsive={true}>
           <strong>Patterns</strong> — guided examples for hooks, context, composition,
           and performance.
           <br />
           <strong>Components</strong> — live demos powered by{" "}
-          <Anchor href={BRAND.npmUrl} target="_blank" rel="noopener noreferrer">
-            react-xper-ui
+          <Anchor href={PRODUCTS.ui.npmUrl} target="_blank" rel="noopener noreferrer">
+            {PRODUCTS.ui.name}
           </Anchor>
           .
           <br />

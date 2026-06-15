@@ -12,7 +12,7 @@ import { Header } from "components/styles/Header";
 import { Switch } from "./Switch";
 import { Menu } from "components/styles/Menu";
 import { useTheme } from "styled-components";
-import { BRAND } from "constants/brand";
+import { BRAND, ECOSYSTEM, PRODUCTS } from "constants/brand";
 
 const navLinks = [
   { to: "/", label: "Home", exact: true },
@@ -32,7 +32,18 @@ function NavbarComponent({ location }) {
 
   const links = (
     <>
-      {navLinks.map((link) => (
+      <Anchor
+        color="status-ok"
+        href={PRODUCTS.ui.siteUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        weight="bold">
+        {PRODUCTS.ui.shortName}
+      </Anchor>
+      <NavLink activeClassName="selected" exact to="/">
+        {PRODUCTS.studio.shortName}
+      </NavLink>
+      {navLinks.slice(1).map((link) => (
         <NavLink
           key={link.to}
           activeClassName="selected"
@@ -43,10 +54,10 @@ function NavbarComponent({ location }) {
       ))}
       <Anchor
         color="status-ok"
-        href={BRAND.uiLibraryUrl}
+        href={PRODUCTS.ui.npmUrl}
         target="_blank"
         rel="noopener noreferrer">
-        UI Library
+        {PRODUCTS.ui.shortName} npm
       </Anchor>
       <Anchor
         color="status-ok"

@@ -7,9 +7,9 @@ export function Select() {
       <div>What do you think about this?</div>
       <SelectComponent title="Select Idea 🤔" style={{ width: "300px" }}>
         <option value="">{"None ❌"}</option>
-        <option value="1">{"React Xper-UI is good🤗"}</option>
-        <option value="2">{"React Xper-UI is great😎"}</option>
-        <option value="3">{"React Xper-UI is love😘"}</option>
+        <option value="1">{"Meridian UI is good🤗"}</option>
+        <option value="2">{"Meridian UI is great😎"}</option>
+        <option value="3">{"Meridian UI is love😘"}</option>
       </SelectComponent>
     </div>
   );

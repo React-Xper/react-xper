@@ -10,7 +10,7 @@ import {
 } from "grommet";
 import { useHistory } from "react-router-dom";
 import { Heading } from "components/styles/Heading";
-import { BRAND } from "constants/brand";
+import { BRAND, ECOSYSTEM, PRODUCTS } from "constants/brand";
 
 export default function HomeComponent() {
   const size = React.useContext(ResponsiveContext);
@@ -38,24 +38,27 @@ export default function HomeComponent() {
             }`}></div>
           {size === "small" && <br />}
           <div style={{ marginTop: size !== "small" ? 50 : 0 }}>
-            {BRAND.name}
+            {ECOSYSTEM.name}{" "}
+            <Text color="status-ok" size="large">
+              {PRODUCTS.studio.shortName}
+            </Text>
           </div>
         </Heading>
         <Heading textAlign="center" responsive={true} level="4">
           {BRAND.tagline}
         </Heading>
         <Text color="gray" textAlign="center" size="small" margin={{ top: "small" }}>
-          Part of the{" "}
+          {ECOSYSTEM.tagline}{" "}
           <Anchor color="status-ok" href={BRAND.orgUrl} target="_blank" rel="noopener noreferrer">
-            @React-Xper
-          </Anchor>{" "}
-          ecosystem ·{" "}
+            @{ECOSYSTEM.org}
+          </Anchor>
+          {" · "}
           <Anchor
             color="status-ok"
-            href={BRAND.uiLibraryUrl}
+            href={PRODUCTS.ui.siteUrl}
             target="_blank"
             rel="noopener noreferrer">
-            react-xper-ui
+            {PRODUCTS.ui.name}
           </Anchor>
         </Text>
         <Footer justify="center" pad="small" gap="small">
@@ -66,8 +69,8 @@ export default function HomeComponent() {
           />
           <Button
             color="neutral-1"
-            label="UI library"
-            onClick={() => window.open(BRAND.uiLibraryUrl, "_blank", "noopener,noreferrer")}
+            label={PRODUCTS.ui.shortName}
+            onClick={() => window.open(PRODUCTS.ui.siteUrl, "_blank", "noopener,noreferrer")}
           />
         </Footer>
       </Main>

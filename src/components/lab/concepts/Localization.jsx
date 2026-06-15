@@ -18,9 +18,9 @@ export default function Localization() {
   return (
     <Main pad="xlarge">
       <Box>
-        <Heading level="2">Localization using React Xper UI Translator</Heading>
+        <Heading level="2">Localization using Meridian UI Translator</Heading>
         <Paragraph fill={true}>
-          React Xper UI implements an own localization framework
+          Meridian UI implements an own localization framework
           <br />
           whic is truly simple and easy to use.
           <br />

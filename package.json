@@ -1,7 +1,7 @@
 {
   "name": "react-xper-studio",
   "version": "2.0.0",
-  "description": "React Xper Studio — the official React-Xper showcase for UI patterns, canvas tools, and react-xper-ui components.",
+  "description": "Meridian Studio — patterns, Konva canvas, and live galleries for the Meridian platform.",
   "author": "m3yevn",
   "publicUrl": "https://react-xper.vercel.app",
   "private": true,
