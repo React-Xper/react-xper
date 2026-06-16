@@ -15,9 +15,9 @@ export const PRODUCTS = {
     shortName: "UI",
     description: "Production React component library — Button, Select, Toast, Carousel, and more.",
     siteUrl: "https://uilerial.vercel.app",
-    npmUrl: "https://www.npmjs.com/package/react-xper-ui",
+    npmUrl: "https://www.npmjs.com/package/@techlestial/uilerial",
     githubUrl: "https://github.com/techlestial/uilerial",
-    install: "npm i react-xper-ui",
+    install: "npm i @techlestial/uilerial",
   },
   studio: {
     id: "studio",

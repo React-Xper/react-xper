@@ -1,8 +1,8 @@
 import React from "react";
 import { Box } from "grommet";
 import { Button } from "components/styles/Button";
-import toastEvent from "react-xper-ui/dist/toast/ToastEvent";
-import { ToastContainer } from "react-xper-ui/dist/toast";
+import toastEvent from "@techlestial/uilerial/dist/toast/ToastEvent";
+import { ToastContainer } from "@techlestial/uilerial/dist/toast";
 
 const toast = (message) => {
   toastEvent.emit("normal", message);

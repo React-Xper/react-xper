@@ -1,6 +1,6 @@
 import { Paragraph } from "grommet";
 import React from "react";
-import AccordionComponent from "react-xper-ui/dist/accordion";
+import AccordionComponent from "@techlestial/uilerial/dist/accordion";
 
 export function Accordion() {
   return (

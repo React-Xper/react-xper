@@ -1,5 +1,5 @@
 import React from "react";
-import { TranslateProvider, Translatable } from "react-xper-ui/dist/translator";
+import { TranslateProvider, Translatable } from "@techlestial/uilerial/dist/translator";
 
 const en = {
   welcome_msg: "Uilerial is the best!",

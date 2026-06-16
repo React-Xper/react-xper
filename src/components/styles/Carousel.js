@@ -1,4 +1,4 @@
-import RtsCarousel from "react-xper-ui/dist/carousel";
+import RtsCarousel from "@techlestial/uilerial/dist/carousel";
 import styled from "styled-components";
 
 export const Carousel = styled(RtsCarousel)`

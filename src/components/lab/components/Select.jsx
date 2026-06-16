@@ -1,5 +1,5 @@
 import React from "react";
-import SelectComponent from "react-xper-ui/dist/select";
+import SelectComponent from "@techlestial/uilerial/dist/select";
 
 export function Select() {
   return (

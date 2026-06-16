@@ -12,7 +12,7 @@ import { Header } from "components/styles/Header";
 import { Switch } from "./Switch";
 import { Menu } from "components/styles/Menu";
 import { useTheme } from "styled-components";
-import { BRAND, ECOSYSTEM, PRODUCTS } from "constants/brand";
+import { BRAND, PRODUCTS } from "constants/brand";
 
 const navLinks = [
   { to: "/", label: "Home", exact: true },
