@@ -85,7 +85,7 @@ export default () => {
       <Box style={{ marginTop: 30 }}>
         <Text>
           View code at{" "}
-          <a href="https://github.com/React-Xper/meridian-studio/blob/master/src/components/lab/concepts/RenderProps.jsx">
+          <a href="https://github.com/techlestial/uilerial-studio/blob/master/src/components/lab/concepts/RenderProps.jsx">
             Github
           </a>
         </Text>

@@ -1,9 +1,9 @@
-/** Meridian platform brand — keep in sync with meridian-ui/site/brand.json */
+/** Uilerial — keep in sync with uilerial/site/brand.json */
 export const ECOSYSTEM = {
-  name: "Meridian",
-  tagline: "Precision React interfaces — components, patterns, and canvas.",
-  org: "Meridian",
-  orgUrl: "https://github.com/React-Xper",
+  name: "Techlestial",
+  tagline: "Open-source technology studio — developer tools and React interfaces.",
+  org: "Techlestial",
+  orgUrl: "https://github.com/techlestial",
   accent: "#818cf8",
   accentBright: "#a5b4fc",
 };
@@ -11,21 +11,21 @@ export const ECOSYSTEM = {
 export const PRODUCTS = {
   ui: {
     id: "ui",
-    name: "Meridian UI",
+    name: "Uilerial",
     shortName: "UI",
     description: "Production React component library — Button, Select, Toast, Carousel, and more.",
-    siteUrl: "https://meridian-ui-rosy.vercel.app",
+    siteUrl: "https://uilerial.vercel.app",
     npmUrl: "https://www.npmjs.com/package/react-xper-ui",
-    githubUrl: "https://github.com/React-Xper/meridian-ui",
+    githubUrl: "https://github.com/techlestial/uilerial",
     install: "npm i react-xper-ui",
   },
   studio: {
     id: "studio",
-    name: "Meridian Studio",
+    name: "Uilerial Studio",
     shortName: "Studio",
     description: "Patterns, Konva canvas tools, and interactive galleries.",
-    siteUrl: "https://meridian-studio-kevin-moe-myint-myats-projects.vercel.app",
-    githubUrl: "https://github.com/React-Xper/meridian-studio",
+    siteUrl: "https://uilerial-studio.vercel.app",
+    githubUrl: "https://github.com/techlestial/uilerial-studio",
   },
 };
 
@@ -33,7 +33,7 @@ export const BRAND = {
   name: PRODUCTS.studio.name,
   shortName: PRODUCTS.studio.shortName,
   tagline: "Patterns, canvas, and live component galleries.",
-  description: `${PRODUCTS.studio.name} is the interactive workspace for the ${ECOSYSTEM.name} platform.`,
+  description: `${PRODUCTS.studio.name} — interactive React lab for ${PRODUCTS.ui.name} components.`,
   siteUrl: PRODUCTS.studio.siteUrl,
   uiLibraryUrl: PRODUCTS.ui.siteUrl,
   npmUrl: PRODUCTS.ui.npmUrl,

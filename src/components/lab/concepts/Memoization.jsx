@@ -37,7 +37,7 @@ export default function Memoization() {
       <Box style={{ marginTop: 30 }}>
         <Text>
           View code at{" "}
-          <a href="https://github.com/React-Xper/meridian-studio/blob/master/src/components/lab/concepts/Memoization.jsx">
+          <a href="https://github.com/techlestial/uilerial-studio/blob/master/src/components/lab/concepts/Memoization.jsx">
             Github
           </a>
         </Text>

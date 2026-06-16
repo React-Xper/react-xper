@@ -4,10 +4,10 @@ import AccordionComponent from "react-xper-ui/dist/accordion";
 
 export function Accordion() {
   return (
-    <AccordionComponent title="Meridian Studio">
+    <AccordionComponent title="Uilerial Studio">
       <Paragraph responsive={true}>
-        Meridian Studio showcases production-ready React patterns and the
-        Meridian UI component library.
+        Uilerial Studio showcases production-ready React patterns and the
+        Uilerial component library.
       </Paragraph>
     </AccordionComponent>
   );

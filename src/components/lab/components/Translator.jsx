@@ -2,11 +2,11 @@ import React from "react";
 import { TranslateProvider, Translatable } from "react-xper-ui/dist/translator";
 
 const en = {
-  welcome_msg: "Meridian UI is the best!",
+  welcome_msg: "Uilerial is the best!",
 };
 
 const zh_cn = {
-  welcome_msg: "Meridian UI 是最好的!",
+  welcome_msg: "Uilerial 是最好的!",
 };
 
 const languageSrc = {

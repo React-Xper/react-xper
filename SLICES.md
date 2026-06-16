@@ -1,17 +1,15 @@
-# Meridian Studio — Vertical Slices
+# Uilerial Studio — Vertical Slices
 
 | Slice | Status |
 |-------|--------|
-| **Meridian** platform rebrand (from React Xper) | ✅ |
-| Folder + repo rename → `meridian-studio` | ✅ |
-| `/patterns` + `/components` clean URLs | ✅ |
-| Ecosystem nav → UI + Studio | ✅ |
-| Vercel | ⏳ [meridian-studio.vercel.app](https://meridian-studio-kevin-moe-myint-myats-projects.vercel.app) — CRA build fix |
+| Techlestial family rebrand | ✅ |
+| `/patterns` + `/components` routes | ✅ |
+| GitHub → `techlestial/uilerial-studio` | ⏳ transfer |
+| Vercel → [uilerial-studio.vercel.app](https://uilerial-studio.vercel.app) | ⏳ CRA build + deploy |
 | React 18 upgrade | 🔜 |
-| CI workflow | 🔜 |
 
 ## Brand
 
-- **Platform:** Meridian — precision React interfaces
-- **This repo:** Meridian Studio — patterns, canvas, galleries
-- **Sibling:** [Meridian UI](https://meridian-ui-rosy.vercel.app) — npm `react-xper-ui` / `@meridian/ui`
+- **Studio:** [Techlestial](https://techlestial.vercel.app)
+- **This repo:** Uilerial Studio — patterns, Konva canvas, galleries
+- **Sibling:** [Uilerial](https://uilerial.vercel.app) — npm `@techlestial/uilerial`

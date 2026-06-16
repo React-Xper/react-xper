@@ -18,9 +18,9 @@ export default function Localization() {
   return (
     <Main pad="xlarge">
       <Box>
-        <Heading level="2">Localization using Meridian UI Translator</Heading>
+        <Heading level="2">Localization using Uilerial Translator</Heading>
         <Paragraph fill={true}>
-          Meridian UI implements an own localization framework
+          Uilerial implements an own localization framework
           <br />
           whic is truly simple and easy to use.
           <br />
@@ -56,7 +56,7 @@ export default function Localization() {
         <Text>
           View code at{" "}
           <a
-            href="https://github.com/React-Xper/meridian-studio/blob/master/src/components/lab/concepts/Localization.jsx"
+            href="https://github.com/techlestial/uilerial-studio/blob/master/src/components/lab/concepts/Localization.jsx"
             alt="github">
             Github
           </a>
