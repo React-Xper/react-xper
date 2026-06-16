@@ -7,4 +7,4 @@
 | Vercel [uilerial-studio.vercel.app](https://uilerial-studio.vercel.app) | ✅ |
 | CRA build (OpenSSL + sass) | ✅ |
 | Folder `uilerial-studio/` | ✅ |
-| React 18 upgrade | 🔜 |
+| npm `@techlestial/uilerial` dep | ✅ alias → `react-xper-ui` until publish |
