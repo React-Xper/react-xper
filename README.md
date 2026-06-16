@@ -1,11 +1,11 @@
 # Uilerial Studio
 
-**Uilerial Studio** — patterns, Konva canvas, and live galleries on the **Meridian** platform.
+**Uilerial Studio** — patterns, Konva canvas, and live galleries for the [Techlestial](https://techlestial.vercel.app) studio.
 
 | Product | URL |
 |---------|-----|
-| **Studio** (this repo) | [meridian-studio.vercel.app](https://uilerial-studio.vercel.app) |
-| **UI** | [meridian-ui.vercel.app](https://uilerial.vercel.app) |
+| **Studio** (this repo) | [uilerial-studio.vercel.app](https://uilerial-studio.vercel.app) |
+| **UI** | [uilerial.vercel.app](https://uilerial.vercel.app) |
 
 ## What it is
 
@@ -25,4 +25,4 @@ npm start    # http://localhost:3333
 npm run build
 ```
 
-MIT · Kevin Moe Myint Myat
+MIT · [techlestial/uilerial-studio](https://github.com/techlestial/uilerial-studio)
