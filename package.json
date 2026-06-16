@@ -1,9 +1,9 @@
 {
-  "name": "react-xper-studio",
+  "name": "meridian-studio",
   "version": "2.0.0",
   "description": "Meridian Studio — patterns, Konva canvas, and live galleries for the Meridian platform.",
   "author": "m3yevn",
-  "publicUrl": "https://react-xper.vercel.app",
+  "publicUrl": "https://meridian-studio-kevin-moe-myint-myats-projects.vercel.app",
   "private": true,
   "dependencies": {
     "grommet": "^2.12.0",

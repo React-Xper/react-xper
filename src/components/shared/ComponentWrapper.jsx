@@ -6,7 +6,7 @@ import { useTheme } from "styled-components";
 
 export const ComponentWrapper = ({ children, name, link }) => {
   const baseUrl =
-    "https://github.com/React-Xper/react-xper-ui/tree/master/src/components";
+    "https://github.com/React-Xper/meridian-studio-ui/tree/master/src/components";
   const size = useContext(ResponsiveContext);
   const dark = useTheme(ThemeContext).dark;
 

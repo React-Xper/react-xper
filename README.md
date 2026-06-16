@@ -4,8 +4,8 @@
 
 | Product | URL |
 |---------|-----|
-| **Studio** (this repo) | [react-xper.vercel.app](https://react-xper.vercel.app) |
-| **UI** | [react-xper-ui.vercel.app](https://react-xper-ui.vercel.app) |
+| **Studio** (this repo) | [meridian-studio.vercel.app](https://meridian-studio-kevin-moe-myint-myats-projects.vercel.app) |
+| **UI** | [meridian-ui.vercel.app](https://meridian-ui-rosy.vercel.app) |
 
 ## What it is
 

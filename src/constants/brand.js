@@ -1,8 +1,8 @@
-/** Meridian platform brand — keep in sync with react-xper-ui/site/brand.json */
+/** Meridian platform brand — keep in sync with meridian-ui/site/brand.json */
 export const ECOSYSTEM = {
   name: "Meridian",
   tagline: "Precision React interfaces — components, patterns, and canvas.",
-  org: "React-Xper",
+  org: "Meridian",
   orgUrl: "https://github.com/React-Xper",
   accent: "#818cf8",
   accentBright: "#a5b4fc",
@@ -14,9 +14,9 @@ export const PRODUCTS = {
     name: "Meridian UI",
     shortName: "UI",
     description: "Production React component library — Button, Select, Toast, Carousel, and more.",
-    siteUrl: "https://react-xper-ui.vercel.app",
+    siteUrl: "https://meridian-ui-rosy.vercel.app",
     npmUrl: "https://www.npmjs.com/package/react-xper-ui",
-    githubUrl: "https://github.com/React-Xper/react-xper-ui",
+    githubUrl: "https://github.com/React-Xper/meridian-ui",
     install: "npm i react-xper-ui",
   },
   studio: {
@@ -24,8 +24,8 @@ export const PRODUCTS = {
     name: "Meridian Studio",
     shortName: "Studio",
     description: "Patterns, Konva canvas tools, and interactive galleries.",
-    siteUrl: "https://react-xper.vercel.app",
-    githubUrl: "https://github.com/React-Xper/react-xper",
+    siteUrl: "https://meridian-studio-kevin-moe-myint-myats-projects.vercel.app",
+    githubUrl: "https://github.com/React-Xper/meridian-studio",
   },
 };
 

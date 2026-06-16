@@ -196,7 +196,7 @@ export default class UndoRedo extends React.Component {
         <Box style={{ marginTop: 30 }}>
           <Text>
             View code at{" "}
-            <a href="https://github.com/m3yevn/react-xper/blob/master/src/components/lab/libraries/UndoRedo.jsx">
+            <a href="https://github.com/React-Xper/meridian-studio/blob/master/src/components/lab/libraries/UndoRedo.jsx">
               Github
             </a>
           </Text>
