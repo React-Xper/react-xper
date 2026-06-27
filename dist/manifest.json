@@ -1,0 +1,16 @@
+{
+  "short_name": "Meridian",
+  "name": "Uilerial Studio",
+  "description": "Patterns, canvas, and galleries — Uilerial Studio on the Techlestial.",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#09090b",
+  "background_color": "#09090b"
+}
